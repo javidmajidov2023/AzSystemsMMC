@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selector</title>
+</head>
+<body>
+
+<label for="language">Select a language:</label>
+<select id="language" onchange="changeLanguage()">
+    <option value="" disabled selected>Select any language</option>
+    <option value="english">English</option>
+    <option value="spanish">Spanish</option>
+    <option value="french">French</option>
+</select>
+
+<script>
+    function changeLanguage() {
+        var selectedLanguage = document.getElementById("language").value;
+
+        // Redirect to the corresponding HTML file based on the selected language
+        switch (selectedLanguage) {
+            case "english":
+                window.location.href = "main-page-en.html";
+                break;
+            case "spanish":
+                window.location.href = "spanish.html";
+                break;
+            case "french":
+                window.location.href = "french.html";
+                break;
+            default:
+                // Handle default case or do nothing
+                break;
+        }
+    }
+</script>
+
+</body>
+</html>

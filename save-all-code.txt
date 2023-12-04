@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AzSystems MMC - main</title>
+<style type="text/css">
+	
+
+body {
+		background-image: url('1920x108.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+    }
+#logo{
+	margin: 0px;
+	position: absolute;
+	width: 230px;
+	height: 230px;
+	top: -30px;
+	left: -20px;
+
+}
+
+#info-bg{
+	border: 70px solid skyblue;
+	border-radius: 3%;
+	box-shadow: 5px 5px 10px black;
+}
+
+#p1 {
+    position: absolute;
+    top: 35px;
+    font-size: 20px;
+    margin-left: 250px;
+    font-weight: bold;
+    color: blue;
+    border-radius: 15%;
+    box-shadow: 0 4px 6px rgba(52, 152, 219, 0.9);
+    border: 2px solid cyan;
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(52, 152, 219, 0.9);
+    transition: transform 0.3s ease;
+        }
+
+        #p1:hover {
+            font-size: 20px;
+            cursor: pointer;
+            color: black;
+            transform: rotate(15deg);
+        }
+
+        #p1:hover::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: transparent;
+            transition: transform 0.3s ease;
+        }
+
+        #p1:hover:hover::before {
+            transform: rotate(-15deg);
+        }
+
+        #p2 {
+            position: absolute;
+            top: 35px;
+            font-size: 20px;
+            margin-left: 460px;
+            font-weight: bold;
+            color: blue;
+            border-radius: 15%;
+            box-shadow: 0 4px 6px rgba(52, 152, 219, 0.9);
+            border: 2px solid cyan;
+            padding: 10px;
+            text-shadow: 2px 2px 4px rgba(52, 152, 219, 0.9);
+            transition: transform 0.3s ease;
+        }
+
+        #p2:hover {
+            font-size: 20px;
+            cursor: pointer;
+            color: black;
+            transform: rotate(-15deg);
+        }
+
+        #p2:hover::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: transparent;
+            transition: transform 0.3s ease;
+        }
+
+        #p2:hover:hover::before {
+            transform: rotate(15deg);
+        }
+
+
+#p3{
+	position: absolute;
+            top: 35px;
+            font-size: 20px;
+            margin-left: 690px;
+            font-weight: bold;
+            color: blue;
+            border-radius: 15%;
+            box-shadow: 0 4px 6px rgba(52, 152, 219, 0.9);
+            border: 2px solid cyan;
+            padding: 10px;
+            text-shadow: 2px 2px 4px rgba(52, 152, 219, 0.9);
+            transition: transform 0.3s ease;
+}
+
+#p3:hover{
+	font-size: 20px;
+            cursor: pointer;
+            color: black;
+            transform: rotate(15deg);
+
+}
+
+
+#p3:hover::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: transparent;
+            transition: transform 0.3s ease;
+}
+
+        #p3:hover:hover::before {
+            transform: rotate(15deg);
+        }
+        #p4 {
+            position: absolute;
+            top: 35px;
+            font-size: 20px;
+            margin-left: 900px;
+            font-weight: bold;
+            color: blue;
+            border-radius: 15%;
+            box-shadow: 0 4px 6px rgba(52, 152, 219, 0.9);
+            border: 2px solid cyan;
+            padding: 10px;
+            text-shadow: 2px 2px 4px rgba(52, 152, 219, 0.9);
+            transition: transform 0.3s ease;
+        }
+
+        #p4:hover {
+            font-size: 20px;
+            cursor: pointer;
+            color: black;
+            transform: rotate(-15deg);
+        }
+
+        #p4:hover::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: transparent;
+            transition: transform 0.3s ease;
+        }
+
+        #p4:hover:hover::before {
+            transform: rotate(15deg);
+        }
+
+
+
+#ig{
+	position: absolute;
+	top: 55px;
+	margin-left: 1050px;
+	width: 50px;
+	height: 50px;
+}
+
+#ig:hover{
+	cursor: pointer;
+}
+
+#fb{
+	position: absolute;
+	top: 59px;
+	margin-left: 1100px;
+	width: 42px;
+	height: 42px;
+}
+
+#fb:hover{
+	cursor: pointer;
+}
+
+.diller{
+	position: absolute;
+	margin-left: 1200px;
+	top: 65px;
+}
+
+#language{
+	background-color: lightblue;
+	width: 60px;
+	font-size: 20px;
+}
+
+#main-bg{
+	position: absolute;
+	top: 160px;
+}
+
+
+.image-container {
+            position: relative;
+            display: inline-block;
+            top: 250px;
+        }
+
+        
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        
+
+        .image-with-overlay {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+
+#h1{
+
+	position: absolute;
+	color: white;
+	font-size: 90px;
+	top: 365px;
+	font-weight: bold;
+	margin-left: 50px;
+	text-shadow: 2px 2px 4px rgba(52, 152, 219, 0.9);
+
+}
+
+
+#teklif{
+  height: 50px;
+  width: 120px;
+  font-size: 17px;
+  background-color: transparent;
+  border: 2px solid #3498db;
+  color: #000;
+  text-decoration: none; 
+  cursor: pointer;
+  position: relative;
+  bottom: -20px;
+  left: 400px;
+  color: white;
+  border-radius: 15%;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.5);
+
+
+}
+
+#teklif:hover{
+	background-color: #36454F;
+}
+
+#gorulenisler{
+  height: 50px;
+  width: 120px;
+  font-size: 17px;
+  background-color: transparent;
+  border: 2px solid #3498db;
+  color: #000; 
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  bottom: -20px;
+  left: 420px;
+  color: white;
+  border-radius: 15%;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.5);
+}
+
+#gorulenisler:hover{
+	background-color: #36454F;
+
+}
+
+#naxis-bg-removed{
+	position: absolute;
+	top: 265px;
+	height: 550px;
+}
+
+#about-us{
+	position: absolute;
+	left: 550px;
+	top: -90px;
+	font-weight: bold;
+	font-size: 50px;
+	text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.3);
+	text-decoration: underline;
+
+
+}
+
+#about-txt{
+	font-size: 20px;
+}
+
+
+
+#part1{
+	font-size: 20px;
+}
+
+#strategiya{
+	font-weight: bold;
+	color: red;
+}
+
+#part2{
+	font-size: 20px;
+}
+
+#missiya{
+	font-weight: bold;
+	color: red;
+}
+
+
+
+
+
+#meet{
+	position: absolute;
+	top: 800px;
+	width: 400px;
+	height: 200px;
+	border-radius: 15%;
+	left: 800px;
+	top: 970px;
+    border: 2px solid #3498db;
+    box-shadow: 0 3px 8px rgba(52, 152, 219, 0.9);
+
+}
+
+.heading{
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 100;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.haqqimizda-txt{
+	position: absolute;
+	top: 800px;
+}
+
+
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+
+<div class="heading">
+<div> 
+	<a href="main-page.html" id="site-logo">  <img id="logo" src="logo3.png" alt="Site Logo"> </a> 
+</div>
+
+
+
+<div id="info-bg"></div>
+
+<a href="main-page.html"> <p id="p1" style="font-family: Arial, sans-serif;">Əsas səhifə</p></a>
+<p id="p2" style="font-family: Arial, sans-serif;">Haqqımızda</p>
+
+<p id="p3" style="font-family: Arial, sans-serif;">Xidmətlər</p>
+
+<p id="p4" style="font-family: Arial, sans-serif;">Əlaqə</p>
+
+<img id="ig" src="ig2.png">
+<img id="fb" src="fb1.png">
+
+
+
+<div class="diller">
+
+<select name="sort_by" id="language" onchange="if (!window.__cfRLUnblockHandlers) return false; this.form.submit();">
+  <option value="" style="display: none;" id="language_txt">AZ</option>
+  <option value="last_updated" id="en">EN</option>
+  <option value="last_updated" id="ru">RU</option>
+  <option value="last_updated" id="ru">AZ</option>
+
+</select>
+
+</div>
+</div>
+
+<div class="image-container">
+        <div class="image-overlay"></div>
+        <img src="main-bg1.png" alt="image" class="image-with-overlay">
+</div>
+
+<img id="naxis-bg-removed" src="naxis-bg-removed.png">
+
+
+<p id="h1" style="font-family: Arial, sans-serif;">Əla keyfiyyət və ən yaxşı xidmət</p>
+
+<button id="teklif">Təklif al</button>
+
+<button id="gorulenisler">Görülən işlər</button>
+
+<div class="logos">
+
+	<img src="">
+	<img src="">
+	<img src="">
+	<img src="">
+	<img src="">
+	<img src="">
+	<img src="">
+	<img src="">
+
+
+
+
+</div>
+<div class="haqqimizda-txt"><h1 id="about-us" style="font-family: Arial, sans-serif;">Haqqımızda</h1>
+<p id="about-txt" style="font-family: Arial, sans-serif;">
+AzSystems” MMC şirkəti Azərbaycan Respublikasında fəaliyyət göstərir. Şirkətimizin əsas məqsədlərindən biri dünyada yüksək templərlə inkişaf edən informasiya texnologiyalarının və digər innovasiyaların Azərbaycan Respublikasına inteqrasiyası və onların eyni zamanda həyata keçirilməsidir.
+Şirkətin yeni olmasına baxmayaraq, o öz ətrafında müxtəlif sahələrdə çalışan yüksək hazırlıqlı professionalları cəmləşdirmişdir.
+Şirkətimiz mütamadi olaraq əməkdaşların professionallığın artırılması məqsədi ilə həm Azərbaycanda, həm də xaricdə keçirilən informasiya texnologiyalarının inkişafına dair kurslar, seminarlar və treyninqlərdən keçməsini təmin edir. Şirkətimiz artıq bir sıra dövlət əhəmiyyətli strukturlarda öz təcrübəsini və iş fəaliyyətini həyata keçirir. “ Azsystems ”MMC  şirkətinin fəaliyyət göstərdiyi bir sıra istiqamətlər mövcuddur:
+<br>
+<br>
+⦁	• Kamera-videomüşahidə sistemləri
+<br>
+⦁	• Təhlükəsizlik sistemləri
+<br>
+⦁	• Telekomunikasiya və informasiya texnologiyaları
+<br>
+⦁	• Müxtəlif növ şəbəkələrin yaradılması və dəstəyi
+<br>
+⦁	• Server otaqlarının qurulması
+<br>
+⦁	• Bollard sistemlərinin quraşdırılması
+<br>
+⦁	• Nəzarət buraxılış sistemləri
+<br>
+⦁	• Yanğın nəzarət və təhlükəsizlik sistemləri
+<br>
+⦁	• Notebook, kompyuter və UPS avadanlıqlarının satışı və texniki dəstəyi
+<br>
+⦁	• Bütün növ proqramlaşdırma və s.
+<br>
+<br>
+Bizim şirkət tərəfindən təklif olunan avadanlıqlarının bir çoxunu birbaşa istehsalçı zavodlarından müqavilə və partnyorluq əsasında alındığı üçün təklif etdiyimiz avadanlıqlar keyfiyyət, uzun ömürlülük və ən əsası maliyyə baxımından çox seçilir. Biz sadəcə olaraq məhsullarımızı satmağa çalışmırıq, qiymət/keyfiyyət nisbəti baxımından ən optimal həlli tapmağa səy göstəririk. Biz işlərin yerinə yetirilməsi üçün müştəriyə tam məsuliyyət daşıyan komandayıq və işlərin yerinə yetirilmə müddətlərini peşəkar şəkildə idarə edirik.Eyni zamanda böyük layihələri həyata keçirmək üçün kifayət qədər güclü maddi-texniki bazamız mövcuddur.
+<hr>
+<p id="part1" style="font-family: Arial, sans-serif;">
+<span id="strategiya">Strategiya:</span>
+<br>
+<br>
+“Azsystems ”MMC  şirkətinin əsas strategiyası Azərbaycan Respublikası və Qafqaz regionunda texnoloji baxımdan aparıcı şirkət mövqeyinə gəlmək və innovativ proyektlərlə Azərbaycan Respublikasının inkişafına öz töhfəsini verməkdir.
+<br>
+</p>
+<hr>
+</p>
+<p id="part2" style="font-family: Arial, sans-serif;">
+<span id="missiya">Missiyamız:</span>
+<br>
+<br>
+Azərbaycan ictimayyətinə və əsasən Azərbaycan gənclərinə dünyada sürətlə inkişaf edən texnoloji proseslərin vaxtında, düzgün və professional şəkildə çatdırılması, bu proseslərin öyrənilməsi və inteqrasiyası missiyalarımızdan biridir.
+</p>
+</div>
+
+
+<img id="meet" src="meet.png">
+
+
+
+
+
+
+
+</body>
+</html>

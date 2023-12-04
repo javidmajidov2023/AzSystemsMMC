@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AzSystems MMC</title>
+    <link rel="stylesheet" href="main-page.css">
+</head>
+<body>
+
+
+    <div class="scrolling-div" id="scrollingDiv">
+
+
+      <img id="logo" src="logo3.png">
+
+      <a href="main-page.html"> <p id="p1" style="font-family: Arial, sans-serif;">Əsas səhifə</p></a>
+
+      <a href="#about-us"> <p id="p2" style="font-family: Arial, sans-serif;">Haqqımızda</p></a>
+
+      <p id="p3" style="font-family: Arial, sans-serif;">Xidmətlər</p>
+
+      <p id="p4" style="font-family: Arial, sans-serif;">Əlaqə</p>
+
+      <img id="ig" src="ig2.png">
+
+      <img id="fb" src="fb1.png">
+
+      <select name="select" id="language" onchange="if (!window.__cfRLUnblockHandlers) return false; this.form.submit();">
+        <option style="display: none;" id="language_txt">AZ</option>
+        <option id="en">EN</option>
+        <option id="ru">RU</option>
+        <option id="az">AZ</option>
+
+      </select>
+
+
+
+    </div>
+
+
+
+    <script src="main-page.js"></script>
+    
+    <div class="image-container">
+        <div class="image-overlay"></div>
+        <img src="main-bg1.png" alt="image" class="image-with-overlay">
+</div>
+
+<img id="naxis-bg-removed" src="naxis-bg-removed.png">
+
+
+<p id="h1" style="font-family: Arial, sans-serif;">Əla keyfiyyət və ən yaxşı xidmət</p>
+
+<button id="teklif">Təklif al</button>
+
+<button id="gorulenisler">Görülən işlər</button>
+
+<div class="logos">
+
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+
+
+
+
+</div>
+<p id="HAQQIMIZDA" style="font-family: Arial, sans-serif;">Haqqımızda</p>
+
+<div class="image-container2">
+        <div class="image-overlay2"></div>
+        <img src="bg-for-headings.PNG" alt="image2" class="image-with-overlay2">
+</div>
+<div class="haqqimizda-txt">
+<p id="about-txt" style="font-family: Arial, sans-serif;">
+AzSystems” MMC şirkəti Azərbaycan Respublikasında fəaliyyət göstərir. Şirkətimizin əsas məqsədlərindən biri dünyada yüksək templərlə inkişaf edən informasiya texnologiyalarının və digər innovasiyaların Azərbaycan Respublikasına inteqrasiyası və onların eyni zamanda həyata keçirilməsidir.
+Şirkətin yeni olmasına baxmayaraq, o öz ətrafında müxtəlif sahələrdə çalışan yüksək hazırlıqlı professionalları cəmləşdirmişdir.
+Şirkətimiz mütamadi olaraq əməkdaşların professionallığın artırılması məqsədi ilə həm Azərbaycanda, həm də xaricdə keçirilən informasiya texnologiyalarının inkişafına dair kurslar, seminarlar və treyninqlərdən keçməsini təmin edir. Şirkətimiz artıq bir sıra dövlət əhəmiyyətli strukturlarda öz təcrübəsini və iş fəaliyyətini həyata keçirir. “ Azsystems ”MMC  şirkətinin fəaliyyət göstərdiyi bir sıra istiqamətlər mövcuddur:
+<br>
+<br>
+⦁ • Kamera-videomüşahidə sistemləri
+<br>
+⦁ • Təhlükəsizlik sistemləri
+<br>
+⦁ • Telekomunikasiya və informasiya texnologiyaları
+<br>
+⦁ • Müxtəlif növ şəbəkələrin yaradılması və dəstəyi
+<br>
+⦁ • Server otaqlarının qurulması
+<br>
+⦁ • Bollard sistemlərinin quraşdırılması
+<br>
+⦁ • Nəzarət buraxılış sistemləri
+<br>
+⦁ • Yanğın nəzarət və təhlükəsizlik sistemləri
+<br>
+⦁ • Notebook, kompyuter və UPS avadanlıqlarının satışı və texniki dəstəyi
+<br>
+⦁ • Bütün növ proqramlaşdırma və s.
+<br>
+<br>
+Bizim şirkət tərəfindən təklif olunan avadanlıqlarının bir çoxunu birbaşa istehsalçı zavodlarından müqavilə və partnyorluq əsasında alındığı üçün təklif etdiyimiz avadanlıqlar keyfiyyət, uzun ömürlülük və ən əsası maliyyə baxımından çox seçilir. Biz sadəcə olaraq məhsullarımızı satmağa çalışmırıq, qiymət/keyfiyyət nisbəti baxımından ən optimal həlli tapmağa səy göstəririk. Biz işlərin yerinə yetirilməsi üçün müştəriyə tam məsuliyyət daşıyan komandayıq və işlərin yerinə yetirilmə müddətlərini peşəkar şəkildə idarə edirik.Eyni zamanda böyük layihələri həyata keçirmək üçün kifayət qədər güclü maddi-texniki bazamız mövcuddur.
+<hr>
+<p id="part1" style="font-family: Arial, sans-serif;">
+<span id="strategiya">Strategiya:</span>
+<br>
+<br>
+“Azsystems ”MMC  şirkətinin əsas strategiyası Azərbaycan Respublikası və Qafqaz regionunda texnoloji baxımdan aparıcı şirkət mövqeyinə gəlmək və innovativ proyektlərlə Azərbaycan Respublikasının inkişafına öz töhfəsini verməkdir.
+<br>
+</p>
+<hr>
+</p>
+<p id="part2" style="font-family: Arial, sans-serif;">
+<span id="missiya">Missiyamız:</span>
+<br>
+<br>
+Azərbaycan ictimayyətinə və əsasən Azərbaycan gənclərinə dünyada sürətlə inkişaf edən texnoloji proseslərin vaxtında, düzgün və professional şəkildə çatdırılması, bu proseslərin öyrənilməsi və inteqrasiyası missiyalarımızdan biridir.
+</p>
+</div>
+
+
+<img id="meet" src="meet.png">
+</body>
+</html>

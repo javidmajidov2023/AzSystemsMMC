@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact | AzSystems MMC</title>
+	<link rel="stylesheet" href="elaqe-en.css">
+</head>
+<body>
+
+    <div class="scrolling-div" id="scrollingDiv">
+
+
+      <a href="index.html"> <img id="logo" src="logo5.png"></a>
+
+      <a href="index-en.html"><button id="p1">Main page</button></a>
+
+      <a href="haqqimizda-en.html"><button id="p2">About us</button></a>
+
+      <a href="xidmetler-en.html"><button id="p3">Services</button></a>
+
+      <a href="elaqe-en.html"><button id="p4">Contact</button></a>
+
+      <a href="avadanliqlar-en.html"><p id="p5">Equipment</p></a>
+
+<a href="https://www.instagram.com/az_systems_mmc/"><img id="ig" src="ig2.png"></a>
+
+      <a href="https://m.facebook.com/profile.php?id=61552812114477&eav=AfadMGiN6N4CHJJuHiHm7FDrVWBrBOkowhobiCwYrrrNXmKGnTSSVd0qwInp_s8lr7Y&paipv=0" target="_blank"><img id="fb" src="fb1.png"></a>
+
+<select id="language" onchange="changeLanguage()">
+    <option value="" disabled selected>Language</option>
+    <option value="elaqe-ru.html">RU</option>
+    <option value="elaqe.html">AZ</option>
+    <option value="elaqe-en.html">EN</option>
+</select>
+
+<script>
+    function changeLanguage() {
+        var selectedLanguage = document.getElementById("language").value;
+
+        // Redirect to the corresponding HTML file based on the selected language
+        if (selectedLanguage) {
+            window.location.href = selectedLanguage;
+        }
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <button id="teklif">Get offer</button>
+      <!--
+      <button id="gorulenisler">Görülən işlər</button>
+        -->
+<div class="open-close">
+    <div id="overlay">
+        <div id="content">
+            
+            <a href="index-en.html"><p id="p1-v2">Main page</p></a>
+            <a href="haqqimizda-en.html"><p id="p2-v2">About us</p></a>
+            <a href="avadanliqlar-en.html"><p id="p5-v2">Equipment</p></a>
+            <a href="xidmetler-en.html"><p id="p3-v2">Services</p></a>
+            <a href="elaqe-en.html"><p id="p4-v2">Contact</p></a>
+            
+            <a href="#" id="closeOverlay"><img id="x-img" src="x-logo.png"></a>
+            <select name="select" id="language2" onchange="changeLanguageA()">
+                <option value="" disabled selected>Language</option>
+                <option value="elaqe-ru.html">RU</option>
+                <option value="elaqe.html">AZ</option>
+                <option value="elaqe-en.html">EN</option>
+            </select>
+
+<script>
+    function changeLanguageA() {
+        var selectedLanguage = document.getElementById("language2").value;
+
+        // Redirect to the corresponding HTML file based on the selected language
+        if (selectedLanguage) {
+            window.location.href = selectedLanguage;
+        }
+    }
+</script>
+        </div>
+    </div>
+    <img id="showOverlay" src="tree-line.png" alt="IMG" width="200" height="200">
+
+        
+    </div>
+</div>
+<script type="text/javascript">
+            document.getElementById("showOverlay").addEventListener("click", function() {
+            var overlay = document.getElementById("overlay");
+            var showOverlay = document.getElementById("showOverlay");
+
+            overlay.style.display = "block";
+            overlay.style.opacity = 0.5; // Beyazlık animasyonunu başlat
+            showOverlay.style.opacity = 0; // Resim kaybolur
+            setTimeout(function () {
+                overlay.style.opacity = 5; // Tamamen beyaz hale gelirken metinler ve X belirir
+            }, 10); // Beyazlık animasyon süresi
+        });
+
+        document.getElementById("closeOverlay").addEventListener("click", function(e) {
+            e.preventDefault();
+            var overlay = document.getElementById("overlay");
+            var showOverlay = document.getElementById("showOverlay");
+
+            overlay.style.opacity = 0; // Beyazlık kaybolur
+            showOverlay.style.opacity = 1; // Resim geri gelir
+            setTimeout(function () {
+                overlay.style.display = "none"; // Tamamen kaybolur
+            }, 500); // Beyazlık animasyon süresi
+        });
+</script>
+      
+          <script src="elaqe-en.js"></script>
+
+
+
+    </div>
+<!--
+<div class="image-container">
+        <div class="image-overlay"></div>
+        <img src="bg-for-headings.PNG" alt="image" class="image-with-overlay">
+</div>
+-->
+
+
+<div class="image-container2">
+        <div class="image-overlay2"></div>
+        <img id="reception" src="reception.png" alt="image" class="image-with-overlay2">
+</div>
+
+<p id="faydali-xidmetler">For useful services</p>
+<p id="faydali-xidmetler2">For<br>useful services</p>
+
+<p id="bizimle-elaqe">Contact us</p>
+<p id="bizimle-elaqe2">Contact us</p>
+
+<div id="mail">
+  <img id="mail-img" src="paper-plane.png">
+  <a id="mail-txt" href="mailto:office@azsystems.az">office@azsystems.az</a>
+</div>
+
+<div class="image-container3">
+        <div class="image-overlay3"></div>
+        <img src="number.png" alt="image" class="image-with-overlay3">
+</div>
+
+<div class="image-container32">
+        <div class="image-overlay32"></div>
+        <img id="number22" src="number2.png" alt="image" class="image-with-overlay32">
+</div>
+  
+<img id="phone-logo" src="phone-end-end.png">
+<p id="number-txt">+99410 228 76 67</p>
+
+
+<div class="image-container4">
+       <div class="image-overlay4"></div>
+       <img src="bg-for-elaqe01.png" alt="image" class="image-with-overlay4">
+</div>
+
+<div class="image-container42">
+       <div class="image-overlay42"></div>
+       <img src="bg-for-elaqe012.png" alt="image" class="image-with-overlay42">
+</div>
+
+<a href="https://m.facebook.com/profile.php?id=61552812114477&eav=AfadMGiN6N4CHJJuHiHm7FDrVWBrBOkowhobiCwYrrrNXmKGnTSSVd0qwInp_s8lr7Y&paipv=0" target="_blank"><img id="facebook01-logo" src="facebook01-logo.png"></a>
+<a href="https://www.instagram.com/az_systems_mmc/" target="_blank"><img id="instagram01-logo" src="ig-logo-for-elaqe.png"></a>
+
+<p id="bizi-izleyin">Follow us on Facebook and Instagram</p>
+    <div class="huquqlar">
+        <div class="left-text">
+            Copyright reserved:
+        </div>
+        <div class="right-text">
+            ©2023
+        </div>
+    </div>
+
+
+<div class="google-map">
+  
+      <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3038.8530866914666!2d49.80752277600969!3d40.389948571443895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDIzJzIzLjgiTiA0OcKwNDgnMzYuNCJF!5e0!3m2!1saz!2saz!4v1697805831873!5m2!1saz!2saz" width="967" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+<div class="google-map2">
+  
+      <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3038.8530866914666!2d49.80752277600969!3d40.389948571443895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDIzJzIzLjgiTiA0OcKwNDgnMzYuNCJF!5e0!3m2!1saz!2saz!4v1697805831873!5m2!1saz!2saz" width="265px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+</div>
+
+
+</body>
+</html>
