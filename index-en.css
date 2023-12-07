@@ -1327,11 +1327,11 @@ body {
 
             #language2{
                 position: absolute;
-                width: 50px;
+                width: 70px;
                 font-size: 20px;
                 color: darkslategray;
                 height: 30px;
-                left: 87px;
+                left: 67px;
             }
 
             #p1-v2{
@@ -1558,7 +1558,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 0px;
+    left: 50px;
     top: 333px;
     background-color: rgba(0, 83, 171);
     height: 240px;
@@ -1591,7 +1591,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 0px;
+    left: 50px;
     height: 240px;
     top: 633px;
     background-color: rgba(0, 83, 171);
@@ -1625,7 +1625,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 4px;
+    left: 54px;
     top: 933px;
     height: 240px;
     background-color: rgba(0, 83, 171);
@@ -1658,7 +1658,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 5px;
+    left: 55px;
     top: 1233px;
     height: 240px;
     background-color: rgba(0, 83, 171);
@@ -1725,7 +1725,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 0px;
+    left: 35px;
     height: 310px;
     top: 1533px;
     background-color: rgba(0, 83, 171);
@@ -1759,7 +1759,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 12px;
+    left: 52px;
     top: 1913px;
     background-color: rgba(0, 83, 171);
 
@@ -1924,7 +1924,7 @@ body {
 
 #yes11{
     position: absolute;
-    top: 2980px;
+    top: 2880px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -1933,7 +1933,7 @@ body {
 
 #dostcasina-xidmet2{
     position: absolute;
-    top: 2970px;
+    top: 2870px;
     left: 50px;
     color: black;
     font-size: 20px;
@@ -1944,7 +1944,7 @@ body {
 
 #yes22{
     position: absolute;
-    top: 3020px;
+    top: 2920px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -1953,7 +1953,7 @@ body {
 
 #innovativ-heller2{
     position: absolute;
-    top: 3010px;
+    top: 2910px;
     left: 50px;
     color: black;
     font-size: 20px;
@@ -1963,7 +1963,7 @@ body {
 
 #yes33{
     position: absolute;
-    top: 3060px;
+    top: 2960px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -1972,7 +1972,7 @@ body {
 
 #yuksek-keyfiyyet2{
     position: absolute;
-    top: 3050px;
+    top: 2950px;
     left: 50px;
     color: black;
     font-size: 20px;
@@ -1982,7 +1982,7 @@ body {
 
 #yes44{
     position: absolute;
-    top: 3100px;
+    top: 3000px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -1991,7 +1991,7 @@ body {
 
 #sertifikatli-meshullar2{
     position: absolute;
-    top: 3090px;
+    top: 2990px;
     left: 50px;
     color: black;
     font-size: 20px;
