@@ -585,30 +585,41 @@ body {
 
             #language2{
                 position: absolute;
-                width: 68px;
+                width: 70px;
                 font-size: 20px;
                 color: darkslategray;
                 height: 30px;
-                left: 23px;
+                left: 67px;
             }
 
             #p1-v2{
+                position: relative;
+                top: 0px;
                 color: darkslategray;
                 letter-spacing: 3px;
+                left: 50px;
             }
             #p2-v2{
+                position: relative;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p3-v2{
+                position: relative;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p4-v2{
+                position: relative;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p5-v2{
+                position: relative;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
@@ -619,15 +630,15 @@ body {
                 width: 40px;
                 height: 40px;
                 top: 30px;
-                left: 200px;
+                left: 280px;
             }
 
             #x-img{
                 position: absolute;                
                 width: 42px;
                 height: 42px;
-                top: -127px;
-                left: 121px;
+                top: -128px;
+                left: 201px;
                 opacity: 5;
                 transition: opacity 0.8s;
 
@@ -640,7 +651,7 @@ body {
     top: 0;
     left: 0;
     height: 50px;
-    width: 50%;
+    width: 70%;
     background-color: skyblue;
     padding: 20px;
     transition: transform 0.5s ease;
@@ -654,7 +665,6 @@ body {
     bottom: 0;
     transform: translateY(100%);
 }
-
 
 .huquqlar {
     display: none;
