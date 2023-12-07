@@ -254,7 +254,7 @@ body {
     margin-left: 1240px;
     top: 65px;
     background-color: lightblue;
-    width: 75px;
+    width: 60px;
     font-size: 20px;
 }
 
@@ -581,7 +581,7 @@ body {
     position: absolute;
     left: 450px;
     top: 940px;
-    height: 230px;
+    height: 218px;
     background-color: rgba(0, 83, 171);
 
  
@@ -602,7 +602,7 @@ body {
 
 #xidmet5-img{
     position: relative;
-    left: 86px;
+    left: 66px;
     width: 100px;
     height: 100px;
 }
@@ -613,7 +613,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 770px;
+    left: 743px;
     top: 940px;
     height: 210px;
     background-color: rgba(0, 83, 171);
@@ -650,7 +650,7 @@ body {
     position: absolute;
     left: 1050px;
     top: 940px;
-    height: 200px;
+    height: 190px;
     background-color: rgba(0, 83, 171);
 
  
@@ -684,7 +684,7 @@ body {
     position: absolute;
     left: 450px;
     top: 1250px;
-    height: 200px;
+    height: 190px;
     background-color: rgba(0, 83, 171);
 
  
@@ -719,7 +719,6 @@ body {
     position: absolute;
     left: 470px;
     top: 1250px;
-    height: 350px;
     background-color: rgba(0, 83, 171);
 
  
@@ -752,9 +751,9 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 755px;
+    left: 735px;
     top: 1250px;
-    height: 285px;
+    height: 265px;
     background-color: rgba(0, 83, 171);
 
  
@@ -1328,30 +1327,41 @@ body {
 
             #language2{
                 position: absolute;
-                width: 70px;
+                width: 50px;
                 font-size: 20px;
                 color: darkslategray;
                 height: 30px;
-                left: 55px;
+                left: 97px;
             }
 
             #p1-v2{
+                position: relative;
+                top: 0px;
                 color: darkslategray;
                 letter-spacing: 3px;
+                left: 60px;
             }
             #p2-v2{
+                position: relative;
+                left: 60px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p3-v2{
+                position: relative;
+                left: 60px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p4-v2{
+                position: relative;
+                left: 60px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p5-v2{
+                position: relative;
+                left: 60px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
@@ -1362,15 +1372,15 @@ body {
                 width: 40px;
                 height: 40px;
                 top: 30px;
-                left: 200px;
+                left: 300px;
             }
 
             #x-img{
                 position: absolute;                
                 width: 42px;
                 height: 42px;
-                top: -127px;
-                left: 161px;
+                top: -128px;
+                left: 231px;
                 opacity: 5;
                 transition: opacity 0.8s;
 
@@ -1498,7 +1508,7 @@ body {
     top: 0;
     left: 0;
     height: 50px;
-    width: 25%;
+    width: 100%;
     background-color: skyblue;
     padding: 20px;
     transition: transform 0.5s ease;
@@ -1519,7 +1529,7 @@ body {
     position: absolute;
     width: 300px;
     left: 10px;
-    top: 80px;
+    top: 90px;
     color: black;
     font-weight: bold;
 
@@ -1548,10 +1558,10 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 0px;
+    left: 80px;
     top: 333px;
     background-color: rgba(0, 83, 171);
-    height: 255px;
+    height: 230px;
 
  
 }
@@ -1581,8 +1591,8 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 0px;
-    height: 270px;
+    left: 74px;
+    height: 230px;
     top: 633px;
     background-color: rgba(0, 83, 171);
 
@@ -1615,9 +1625,9 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 0px;
+    left: 78px;
     top: 933px;
-    height: 260px;
+    height: 230px;
     background-color: rgba(0, 83, 171);
 
  
@@ -1648,9 +1658,9 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 15px;
+    left: 80px;
     top: 1233px;
-    height: 240px;
+    height: 230px;
     background-color: rgba(0, 83, 171);
 
  
@@ -1715,8 +1725,8 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 0px;
-    height: 320px;
+    left: 80px;
+    height: 310px;
     top: 1533px;
     background-color: rgba(0, 83, 171);
 
@@ -1749,9 +1759,8 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 7px;
+    left: 80px;
     top: 1913px;
-    height: 240px;
     background-color: rgba(0, 83, 171);
 
  
@@ -1816,7 +1825,7 @@ body {
 
 #haqqimizda-ne-bilirsiniz{
     position: absolute;
-    top: 2200px;
+    top: 2300px;
     color: black;
     font-size: 28px;
     font-weight: bold;
@@ -1827,7 +1836,7 @@ body {
     position: absolute;
     height: 8px;
     width: 130px;
-    top: 2300px;
+    top: 2400px;
     left: 10px;
 }
 
@@ -1848,8 +1857,8 @@ body {
 */
 #sirket-haqqinda{
     position: absolute;
-    top: 2310px;
-    left: 10px;
+    top: 2410px;
+    left: 80px;
     color: black;
     font-size: 28px;
     font-weight: bold;
@@ -1857,7 +1866,7 @@ body {
 
 #sirket-haqqinda-alt{
     position: absolute;
-    top: 2360px;
+    top: 2460px;
     left: 10px;
     color: black;
     font-size: 15px;
@@ -1867,7 +1876,7 @@ body {
 
 #sirket-haqqinda-alt2{
     position: absolute;
-    top: 2360px;
+    top: 2460px;
     left: 10px;
     color: black;
     font-size: 15px;
@@ -1915,7 +1924,7 @@ body {
 
 #yes11{
     position: absolute;
-    top: 2940px;
+    top: 2800px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -1924,7 +1933,7 @@ body {
 
 #dostcasina-xidmet2{
     position: absolute;
-    top: 2915px;
+    top: 2790px;
     left: 50px;
     color: black;
     font-size: 20px;
@@ -1935,7 +1944,7 @@ body {
 
 #yes22{
     position: absolute;
-    top: 2993px;
+    top: 2840px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -1944,7 +1953,7 @@ body {
 
 #innovativ-heller2{
     position: absolute;
-    top: 2970px;
+    top: 2830px;
     left: 50px;
     color: black;
     font-size: 20px;
@@ -1954,7 +1963,7 @@ body {
 
 #yes33{
     position: absolute;
-    top: 3050px;
+    top: 2880px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -1963,7 +1972,7 @@ body {
 
 #yuksek-keyfiyyet2{
     position: absolute;
-    top: 3040px;
+    top: 2870px;
     left: 50px;
     color: black;
     font-size: 20px;
@@ -1973,7 +1982,7 @@ body {
 
 #yes44{
     position: absolute;
-    top: 3100px;
+    top: 2920px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -1982,7 +1991,7 @@ body {
 
 #sertifikatli-meshullar2{
     position: absolute;
-    top: 3080px;
+    top: 2910px;
     left: 50px;
     color: black;
     font-size: 20px;
