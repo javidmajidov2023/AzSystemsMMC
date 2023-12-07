@@ -1372,15 +1372,15 @@ body {
                 width: 40px;
                 height: 40px;
                 top: 30px;
-                left: 300px;
+                left: 280px;
             }
 
             #x-img{
                 position: absolute;                
                 width: 42px;
                 height: 42px;
-                top: -125px;
-                left: 231px;
+                top: -128px;
+                left: 211px;
                 opacity: 5;
                 transition: opacity 0.8s;
 
@@ -1558,7 +1558,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 80px;
+    left: 50px;
     top: 333px;
     background-color: rgba(0, 83, 171);
     height: 230px;
@@ -1591,7 +1591,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 74px;
+    left: 44px;
     height: 230px;
     top: 633px;
     background-color: rgba(0, 83, 171);
@@ -1625,7 +1625,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 78px;
+    left: 48px;
     top: 933px;
     height: 230px;
     background-color: rgba(0, 83, 171);
@@ -1658,7 +1658,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 80px;
+    left: 50px;
     top: 1233px;
     height: 230px;
     background-color: rgba(0, 83, 171);
@@ -1725,7 +1725,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 80px;
+    left: 50px;
     height: 310px;
     top: 1533px;
     background-color: rgba(0, 83, 171);
@@ -1759,7 +1759,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     position: absolute;
-    left: 80px;
+    left: 50px;
     top: 1913px;
     background-color: rgba(0, 83, 171);
 

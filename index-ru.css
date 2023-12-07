@@ -1327,11 +1327,11 @@ body {
 
             #language2{
                 position: absolute;
-                width: 50px;
+                width: 75px;
                 font-size: 20px;
                 color: darkslategray;
                 height: 30px;
-                left: 97px;
+                left: 100px;
             }
 
             #p1-v2{
@@ -1339,29 +1339,29 @@ body {
                 top: 0px;
                 color: darkslategray;
                 letter-spacing: 3px;
-                left: 60px;
+                left: 50px;
             }
             #p2-v2{
                 position: relative;
-                left: 60px;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p3-v2{
                 position: relative;
-                left: 60px;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p4-v2{
                 position: relative;
-                left: 60px;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p5-v2{
                 position: relative;
-                left: 60px;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
@@ -1372,7 +1372,7 @@ body {
                 width: 40px;
                 height: 40px;
                 top: 30px;
-                left: 300px;
+                left: 280px;
             }
 
             #x-img{
@@ -1380,7 +1380,7 @@ body {
                 width: 42px;
                 height: 42px;
                 top: -128px;
-                left: 231px;
+                left: 241px;
                 opacity: 5;
                 transition: opacity 0.8s;
 
@@ -1627,7 +1627,7 @@ body {
     position: absolute;
     left: 38px;
     top: 933px;
-    height: 230px;
+    height: 240px;
     background-color: rgba(0, 83, 171);
 
  
@@ -1660,7 +1660,7 @@ body {
     position: absolute;
     left: 60px;
     top: 1233px;
-    height: 230px;
+    height: 240px;
     background-color: rgba(0, 83, 171);
 
  
@@ -1924,7 +1924,7 @@ body {
 
 #yes11{
     position: absolute;
-    top: 2800px;
+    top: 2900px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -1933,7 +1933,7 @@ body {
 
 #dostcasina-xidmet2{
     position: absolute;
-    top: 2790px;
+    top: 2890px;
     left: 50px;
     color: black;
     font-size: 20px;
@@ -1944,7 +1944,7 @@ body {
 
 #yes22{
     position: absolute;
-    top: 2840px;
+    top: 2940px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -1953,7 +1953,7 @@ body {
 
 #innovativ-heller2{
     position: absolute;
-    top: 2830px;
+    top: 2930px;
     left: 50px;
     color: black;
     font-size: 20px;
@@ -1963,7 +1963,7 @@ body {
 
 #yes33{
     position: absolute;
-    top: 2880px;
+    top: 2980px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -1972,7 +1972,7 @@ body {
 
 #yuksek-keyfiyyet2{
     position: absolute;
-    top: 2870px;
+    top: 2970px;
     left: 50px;
     color: black;
     font-size: 20px;
@@ -1982,7 +1982,7 @@ body {
 
 #yes44{
     position: absolute;
-    top: 2920px;
+    top: 3020px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -1991,7 +1991,7 @@ body {
 
 #sertifikatli-meshullar2{
     position: absolute;
-    top: 2910px;
+    top: 3010px;
     left: 50px;
     color: black;
     font-size: 20px;
