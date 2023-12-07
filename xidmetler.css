@@ -1037,7 +1037,7 @@ body {
 #h1-img{
     position: absolute;
     top: 230px;
-    left: 28px;
+    left: 58px;
     width: 200px;
     height: 200px;
     box-shadow: 0 9px 100px rgb(0, 255, 255, 0.5);
@@ -1066,7 +1066,7 @@ body {
 #h2-img{
     position: absolute;
     top: 1060px;
-    left: 28px;
+    left: 58px;
     width: 200px;
     height: 75px;
     box-shadow: 0 9px 100px rgb(0, 255, 255, 0.5);
@@ -1098,7 +1098,7 @@ body {
 
 #h3-img{
     position: absolute;
-    left: 28px;
+    left: 58px;
     top: 2248px;
     width: 200px;
     box-shadow: 0 9px 100px rgb(0, 255, 255, 0.5);
@@ -1127,7 +1127,7 @@ body {
 
 #h4-img{
     position: absolute;
-    left: 28px;
+    left: 58px;
     top: 3000px;
     box-shadow: 0 9px 100px rgb(0, 255, 255, 0.5);
     border: 0.1px solid transparent;
@@ -1190,7 +1190,7 @@ body {
 
 #h6-img{
     position: absolute;
-    left: 26px;
+    left: 56px;
     top: 4325px;
     width: 200px;
     height: 140px;
@@ -1220,7 +1220,7 @@ body {
 
 #h7-img{
     position: absolute;
-    left: 26px;
+    left: 56px;
     top: 5155px;
     height: 110px;
     box-shadow: 0 9px 100px rgb(0, 255, 255, 0.5);
@@ -1268,7 +1268,7 @@ body {
 
 #h8-img{
     position: absolute;
-    left: 24px;
+    left: 54px;
     top: 6110px;
     height: 70px;
     box-shadow: 0 9px 100px rgb(0, 255, 255, 0.5);
@@ -1299,7 +1299,7 @@ body {
 
 #h9-img{
     position: absolute;
-    left: 27px;
+    left: 57px;
     height: 90px;
     top: 7020px;
     box-shadow: 0 9px 100px rgb(0, 255, 255, 0.5);
@@ -1336,7 +1336,7 @@ body {
 
 #h10-img{
     position: absolute;
-    left: 28px;
+    left: 58px;
     top: 7800px;
     height: 120px;
     box-shadow: 0 9px 100px rgb(0, 255, 255, 0.5);
@@ -1347,7 +1347,7 @@ body {
 
 #h10-img2{
     position: absolute;
-    left: 22px;
+    left: 52px;
     top: 8870px;
     height: 100px;
     box-shadow: 0 9px 100px rgb(0, 255, 255, 0.5);
@@ -1366,7 +1366,7 @@ body {
 
 #h11-img{
     position: absolute;
-    left: 27px;
+    left: 57px;
     top: 9655px;
     height: 200px;
     box-shadow: 0 9px 100px rgb(0, 255, 255, 0.5);
@@ -1393,7 +1393,7 @@ body {
 
 #h12-img{
     position: absolute;
-    left: 26px;
+    left: 56px;
     top: 10380px;
     height: 200px;
     box-shadow: 0 9px 100px rgb(0, 255, 255, 0.5);
