@@ -1,0 +1,2139 @@
+body {
+ 
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+
+
+
+#logo{
+    margin: 0px;
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    top: -60px;
+    left: -30px;
+    display: block;
+}
+
+#logo55{
+    position: absolute;
+    display: none;
+}
+
+#p1 {
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  font-size: 17px;
+  background-color: rgba(0, 83, 171);
+  border: 2px solid #3498db;
+  color: #000;
+  text-decoration: none; 
+  cursor: pointer;
+  position: absolute;
+  top: 55px;
+  left: 270px;
+  color: white;
+  border-radius: 15%;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.5);
+
+        }
+
+        #p1:hover {
+            background-color: #36454F;
+            cursor: pointer;
+            
+        }
+/*
+        #p1:hover::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: transparent;
+            transition: transform 0.3s ease;
+        }
+
+        #p1:hover:hover::before {
+            transform: rotate(-15deg);
+        }
+*/
+#p2 {
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  font-size: 17px;
+  background-color: rgba(0, 83, 171);
+  border: 2px solid #3498db;
+  color: #000;
+  text-decoration: none; 
+  cursor: pointer;
+  position: absolute;
+  top: 55px;
+  left: 410px;
+  color: white;
+  border-radius: 15%;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.5);
+
+        }
+
+        #p2:hover {
+            background-color: #36454F;
+            cursor: pointer;
+            
+        }/*
+        #p2:hover::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: transparent;
+            transition: transform 0.3s ease;
+        }
+
+        #p2:hover:hover::before {
+            transform: rotate(15deg);
+        }
+*/
+
+#p3 {
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  font-size: 17px;
+  background-color: rgba(0, 83, 171);
+  border: 2px solid #3498db;
+  color: #000;
+  text-decoration: none; 
+  cursor: pointer;
+  position: absolute;
+  top: 55px;
+  left: 694px;
+  color: white;
+  border-radius: 15%;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.5);
+
+        }
+
+        #p3:hover {
+            background-color: #36454F;
+            cursor: pointer;
+            
+        }
+
+/*
+#p3:hover::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: transparent;
+            transition: transform 0.3s ease;
+}
+
+        #p3:hover:hover::before {
+            transform: rotate(15deg);
+        }
+*/
+
+#p4 {
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  font-size: 17px;
+  background-color: rgba(0, 83, 171);
+  border: 2px solid #3498db;
+  color: #000;
+  text-decoration: none; 
+  cursor: pointer;
+  position: absolute;
+  top: 55px;
+  left: 834px;
+  color: white;
+  border-radius: 15%;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.5);
+
+        }
+
+        #p4:hover {
+            background-color: #36454F;
+            cursor: pointer;
+            
+        }
+
+
+#p5 {
+  height: 46px;
+  width: 120px;
+  font-size: 17px;
+  text-align: center;
+
+  background-color: rgba(0, 83, 171);
+  border: 2px solid #3498db;
+  color: #000;
+  text-decoration: none; 
+  cursor: pointer;
+  position: absolute;
+  top: 38px;
+  left: 550px;
+  color: white;
+  border-radius: 15%;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.5);
+  line-height: 48px;
+
+        }
+
+        #p5:hover {
+            background-color: #36454F;
+            cursor: pointer;
+            
+        }
+
+
+
+
+/*
+        #p4:hover::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: transparent;
+            transition: transform 0.3s ease;
+        }
+
+        #p4:hover:hover::before {
+            transform: rotate(15deg);
+        }
+*/
+
+
+#ig{
+    position: absolute;
+    top: 55px;
+    margin-left: 1130px;
+    width: 50px;
+    height: 50px;
+}
+
+#ig:hover{
+    cursor: pointer;
+}
+
+#fb{
+    position: absolute;
+    top: 59px;
+    margin-left: 1180px;
+    width: 42px;
+    height: 42px;
+}
+
+#fb:hover{
+    cursor: pointer;
+}
+
+
+
+#language{
+    position: absolute;
+    margin-left: 1240px;
+    top: 65px;
+    background-color: lightblue;
+    width: 75px;
+    font-size: 20px;
+}
+
+#main-bg{
+    position: absolute;
+    top: 160px;
+}
+
+
+.image-container {
+            position: relative;
+            display: inline-block;
+            top: 130px;
+        }
+
+        
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 83, 171, 0);
+        }
+        
+
+        .image-with-overlay {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+/*
+#h1{
+
+    position: absolute;
+    left: 350px;
+    color: white;
+    font-size: 120px;
+    top: 247px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(52, 152, 219, 5);
+    font-style: italic;
+
+}
+*/
+
+#logo3-for-h1{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 150px;
+    left: 350px;
+}
+
+#teklif{
+  height: 50px;
+  width: 120px;
+  font-size: 17px;
+  background-color: rgba(0, 83, 171);
+  border: 2px solid #3498db;
+  color: #000;
+  text-decoration: none; 
+  cursor: pointer;
+  position: absolute;
+  top: 55px;
+  left: 974px;
+  color: white;
+  border-radius: 15%;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.5);
+
+
+}
+
+#teklif:hover{
+    background-color: #36454F;
+}
+
+#gorulenisler{
+  height: 50px;
+  width: 120px;
+  font-size: 17px;
+  background-color: rgba(0, 83, 171);
+  border: 2px solid #3498db;
+  color: #000; 
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  top: 55px;
+  left: 960px;
+  color: white;
+  border-radius: 15%;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.5);
+}
+
+#gorulenisler:hover{
+    background-color: #36454F;
+
+}
+
+#naxis-bg-removed{
+    position: absolute;
+    top: 147px;
+    height: 550px;
+    background-attachment: fixed;
+}
+
+#naxis-bg-removed2{
+    position: absolute;
+    top: 147px;
+    height: 550px;
+    left: 1040px;
+}
+
+#naxis3{
+    position: absolute;
+    top: 697px;
+    height: 550px;
+    transform: scaleX(-1) rotate(180deg);
+
+}
+
+#naxis4{
+    position: absolute;
+    top: 1190px;
+    height: 550px;
+
+}
+
+#naxis5{
+    position: absolute;
+    top: 1740px;
+    height: 550px;
+    transform: scaleX(-1) rotate(180deg);
+}
+
+#naxis6{
+    position: absolute;
+    top: 697px;
+    height: 550px;
+    transform: scaleX(-1);
+    transform: rotate(180deg);
+    right: 0px;
+
+}
+
+#naxis7{
+    position: absolute;
+    top: 1190px;
+    height: 550px;
+    transform: scaleX(-1);
+    right: 0px;
+
+}
+
+#naxis8{
+    position: absolute;
+    top: 1740px;
+    height: 550px;
+    transform: scaleX(-1);
+    transform: rotate(180deg);
+    right: 0px;
+}
+#about-us{
+    position: absolute;
+    left: 550px;
+    top: -90px;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+    color: black;
+
+
+}
+
+#about-txt{
+    font-size: 15px;
+    color: black;
+}
+
+
+
+#part1{
+    font-size: 15px;
+    color: black;
+}
+
+#strategiya{
+    font-weight: bold;
+    color: red;
+}
+
+#part2{
+    font-size: 15px;
+}
+
+#missiya{
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+
+#meet{
+    position: absolute;
+    top: 800px;
+    width: 400px;
+    height: 200px;
+    border-radius: 15%;
+    left: 800px;
+    top: 900px;
+    border: 2px solid #3498db;
+}
+
+.heading{
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 100;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.haqqimizda-txt{
+    position: absolute;
+    top: 1200px;
+    color: black;
+}
+
+#HAQQIMIZDA{
+    position: absolute;
+    color: black;
+    font-size: 50px;
+    top: 730px;
+    font-weight: bold;
+    margin-left: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+.image-container2 {
+            position: relative;
+            display: inline-block;
+            top: 150px;
+        }
+
+        
+        .image-overlay2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        
+
+        .image-with-overlay2 {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+
+
+/*
+.logos{
+    top: 675px;
+    left: 260px;
+    background-color: white;
+    position: absolute;
+    border: 2px solid #3498db;
+    box-shadow: 0 4px 6px rgba(52, 152, 219, 0.9);
+    border-radius: 0%;
+}
+*/
+#teklif-etdiyimiz-xidmetler{
+    position: absolute;
+    width: 300px;
+    left: 130px;
+    top: 1114px;
+    color: black;
+    font-weight: bold;
+
+    font-size: 28px;
+}
+
+#line{
+    position: absolute;
+    height: 8px;
+    width: 130px;
+    top: 1213px;
+    left: 130px;
+}
+
+#teklif-etdiyimiz-xidmetler-alt{
+    position: absolute;
+    left: 130px;
+    top: 1214px;
+    color: black;
+    font-size: 15px;
+}
+
+/*
+#naxis-bg-removed2{
+    position: absolute;
+    left: 0px;
+}
+*/
+
+ /*---------------------------------------------------*/
+.xidmet5{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 450px;
+    top: 940px;
+    height: 230px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet5-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+#xidmet5-p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+#xidmet5-img{
+    position: relative;
+    left: 86px;
+    width: 100px;
+    height: 100px;
+}
+ 
+ /*---------------------------------------------------*/
+ .xidmet2{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 770px;
+    top: 940px;
+    height: 210px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet2-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+#xidmet2-p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+#xidmet2-img{
+    position: relative;
+    left: 60px;
+    width: 100px;
+    height: 90px;
+}
+ 
+ /*---------------------------------------------------*/
+
+.xidmet6{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 1050px;
+    top: 940px;
+    height: 200px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet6-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+#xidmet6-p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+#xidmet6-img{
+    position: relative;
+    left: 60px;
+    width: 100px;
+    height: 70px;
+}
+ 
+ /*---------------------------------------------------*/
+.xidmet4{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 450px;
+    top: 1250px;
+    height: 200px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet4-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+#xidmet4-p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+#xidmet4-img{
+    position: relative;
+    left: 58px;
+    width: 100px;
+    height: 70px;
+}
+ 
+ /*---------------------------------------------------*/
+
+.xidmet3{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 470px;
+    top: 1250px;
+    height: 350px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet3-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+#xidmet3-p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+#xidmet3-img{
+    position: relative;
+    left: 63px;
+    width: 100px;
+    height: 75px;
+}
+ 
+ /*---------------------------------------------------*/
+
+.xidmet1{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 755px;
+    top: 1250px;
+    height: 285px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet1-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+#xidmet1-p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+#xidmet1-img{
+    position: relative;
+    left: 65px;
+    width: 100px;
+    height: 95px;
+}
+ 
+ /*---------------------------------------------------*/
+
+.xidmet7{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 1050px;
+    top: 1250px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet7-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+#xidmet7-p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+#xidmet7-img{
+    position: relative;
+    margin-left: 58px;
+    width: 100px;
+    height: 90px;
+}
+ 
+ /*---------------------------------------------------*/
+
+
+#haqqimizda-ne-bilirsiniz{
+    position: absolute;
+    top: 1500px;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    left: 260px;
+}
+
+#line22{
+    position: absolute;
+    height: 8px;
+    width: 130px;
+    top: 1600px;
+    left: 260px;
+}
+
+#meet2{
+    position: absolute;
+    top: 1650px;
+    left: 200px;
+    width: 340px;
+    height: 500px;
+    box-shadow: 0 9px 100px rgb(0, 255, 255, 0.5);
+
+}
+/*
+.on-illik-tecrube{
+    position: absolute;
+    background-color: deepskyblue;
+    color: white;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    top: 2330px;
+    left: 180px;
+}
+*/
+#sirket-haqqinda{
+    position: absolute;
+    top: 1630px;
+    left: 550px;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#sirket-haqqinda-alt{
+    position: absolute;
+    top: 1700px;
+    left: 550px;
+    color: black;
+    font-size: 15px;
+    width: 600px;
+}
+
+#sirket-haqqinda-alt2{
+    position: absolute;
+    display: none;
+}
+
+
+#yes{
+    position: absolute;
+    top: 2010px;
+    left: 550px;
+    width: 40px;
+    height: 40px;
+}
+
+#dostcasina-xidmet{
+    position: absolute;
+    top: 2000px;
+    left: 600px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#yes2{
+    position: absolute;
+    top: 2105px;
+    left: 550px;
+    width: 40px;
+    height: 40px;
+}
+
+#innovativ-heller{
+    position: absolute;
+    top: 2095px;
+    left: 600px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#yes3{
+    position: absolute;
+    top: 2010px;
+    left: 900px;
+    width: 40px;
+    height: 40px;
+}
+
+#yuksek-keyfiyyet{
+    position: absolute;
+    top: 2000px;
+    left: 950px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#yes4{
+    position: absolute;
+    top: 2105px;
+    left: 900px;
+    width: 40px;
+    height: 40px;
+}
+
+#sertifikatli-meshullar{
+    position: absolute;
+    top: 2095px;
+    left: 950px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#yes11{
+    position: absolute;
+    display: none;
+}
+
+#innovativ-heller2{
+    position: absolute;
+    display: none;
+}
+
+#yes22{
+    position: absolute;
+    display: none;
+}
+
+#yes33{
+    position: absolute;
+    display: none;
+}
+
+#yes44{
+    position: absolute;
+    display: none;
+}
+
+#dostcasina-xidmet2{
+    position: absolute;
+    display: none;
+}
+
+#yuksek-keyfiyyet2{
+    position: absolute;
+    display: none;
+}
+
+#sertifikatli-meshullar2{
+    position: absolute;
+    display: none;
+}
+
+
+
+
+/*---------------VIDEO CSS---------------------------
+#video1{
+    position: absolute;
+    width: 1400px;
+    height: 200px;
+}
+*/
+
+
+.image-container2 {
+            position: relative;
+            display: inline-block;
+            top: 1600px;
+        }
+
+        
+        .image-overlay2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(135, 206, 235, 0.5);
+        }
+        
+
+        .image-with-overlay2 {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+#onlar-bizi-secdi{
+    position: absolute;
+    top: 2500px;
+    color: #C0C0C0;
+    font-size: 28px;
+    font-weight: bold;
+    left: 100px;
+}
+
+#line222{
+    position: absolute;
+    height: 8px;
+    width: 130px;
+    top: 2600px;
+    left: 100px;
+}
+
+
+
+
+
+#vergiler-nazirliyi {
+    position: absolute;
+    top: 2680px;
+    left: 100px;
+    color: blue;
+    border-radius: 15%;
+    box-shadow: 0 9px 9px rgba(52, 152, 219, 0.9);
+
+    border: 2px solid cyan;
+    transition: transform 0.7s ease;
+
+}
+
+#vergiler-nazirliyi:hover {
+    cursor: pointer;
+    transform: rotate(10deg);
+}
+
+
+#din {
+    position: absolute;
+    top: 2680px;
+    left: 200px;
+    color: blue;
+    border-radius: 15%;
+    box-shadow: 0 9px 9px rgba(52, 152, 219, 0.9);
+    border: 2px solid cyan;
+    transition: transform 0.7s ease;
+    background-color: white;
+}
+
+#din:hover {
+    cursor: pointer;
+    color: black;
+    transform: rotate(10deg);
+}
+
+
+#access-bank {
+    position: absolute;
+    top: 2680px;
+    left: 338px;
+    color: blue;
+    border-radius: 15%;
+    box-shadow: 0 9px 9px rgba(52, 152, 219, 0.9);
+    border: 2px solid cyan;
+    transition: transform 0.7s ease;
+}
+
+#access-bank:hover {
+    cursor: pointer;
+    color: black;
+    transform: rotate(10deg);
+}
+
+#pasa-holding {
+    position: absolute;
+    top: 2680px;
+    left: 476px;
+    color: blue;
+    border-radius: 15%;
+    box-shadow: 0 9px 9px rgba(52, 152, 219, 0.9);
+    border: 2px solid cyan;
+    transition: transform 0.7s ease;
+    height: 70px;
+}
+
+#pasa-holding:hover {
+    cursor: pointer;
+    color: black;
+    transform: rotate(10deg);
+}
+
+#azerisiq {
+    position: absolute;
+    top: 2684px;
+    left: 674px;
+    color: blue;
+    border-radius: 15%;
+    box-shadow: 0 9px 9px rgba(52, 152, 219, 0.9);
+    border: 2px solid cyan;
+    transition: transform 0.7s ease;
+    background-color: white;
+}
+
+#azerisiq:hover {
+    cursor: pointer;
+    color: black;
+    transform: rotate(10deg);
+}
+
+
+#elbit-systems {
+    position: absolute;
+    top: 2685px;
+    left: 850px;
+    color: blue;
+    border-radius: 15%;
+    box-shadow: 0 9px 9px rgba(52, 152, 219, 0.9);
+    border: 2px solid cyan;
+    transition: transform 0.7s ease;
+    height: 60px;
+}
+
+#elbit-systems:hover {
+    cursor: pointer;
+    color: black;
+    transform: rotate(10deg);
+}
+
+#akkord {
+    position: absolute;
+    top: 2685px;
+    left: 1069px;
+    color: blue;
+    border-radius: 15%;
+    box-shadow: 0 9px 9px rgba(52, 152, 219, 0.9);
+    border: 2px solid cyan;
+    transition: transform 0.7s ease;
+    height: 60px;
+}
+
+#akkord:hover {
+    cursor: pointer;
+    color: black;
+    transform: rotate(10deg);
+}
+
+
+
+#digerlerinede-bax {
+            position: absolute;
+            top: 2675px;
+            font-size: 15px;
+            margin-left: 1200px;
+            font-weight: bold;
+            color: blue;
+            border-radius: 15%;
+            box-shadow: 0 4px 6px rgba(52, 152, 219, 0.9);
+            border: 2px solid cyan;
+            padding: 10px;
+            text-shadow: 2px 2px 4px rgba(52, 152, 219, 0.9);
+            transition: transform 0.7s ease;
+            background-color: white;
+}
+
+#digerlerinede-bax:hover {
+    cursor: pointer;
+    color: black;
+    transform: rotate(10deg);
+}
+
+#neon-arrow{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 2680px;
+    margin-left: 1250px;
+}
+
+        .huquqlar {
+            display: flex;
+            position: relative;
+            margin-left: 0px;
+            top: 2200px;
+            justify-content: space-between;
+            align-items: center;
+            border: 50px solid white;
+            box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.5); /* This creates a shadow on the top-middle side */
+            padding: 10px;
+            background-color: white;
+        }
+
+        .left-text {
+            text-align: left;
+            font-size: 19px;
+            color: gray;
+            background-color: white;
+            font-weight: bold;
+        }
+
+        .right-text {
+            text-align: right;
+            font-size: 19px;
+            color: gray;
+            background-color: white;
+            font-weight: bold;
+        }
+
+#resim{
+    position: absolute;
+    top: 500px;
+}
+
+#media1{
+    position: absolute;
+    display: none;
+}
+
+#media2{
+    position: absolute;
+    display: none;
+}
+
+#media3{
+    position: absolute;
+    display: none;
+}
+
+#media4{
+    position: absolute;
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------CSS for scrolling-div------------------------------------------------------- */
+
+.scrolling-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: skyblue;
+    padding: 20px;
+    transition: transform 0.5s ease;
+    z-index: 999;
+
+}
+
+.scrolling-div.bottom {
+    top: auto;
+    bottom: 0;
+    transform: translateY(100%);
+}
+
+
+
+.open-close{
+    display: none;
+}
+
+/* -------------------------------------------------------MEDIA SCREEN---------------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+
+#p5{
+    display: none;
+}
+
+.open-close{
+    display: block;
+}
+            #overlay {
+                display: none;
+                position: absolute;
+                top: 0px;
+                left: 0;
+                width: 5000px;
+                height: 5000px;
+                background-color: white;
+                opacity: 0;
+                z-index: 999;
+                transition: opacity 0.8s; /* Animasyon süresi */
+            }
+
+    
+            #content {
+                position: absolute;
+                top: 250px;
+                left: 130px;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+            #language2{
+                position: absolute;
+                width: 70px;
+                font-size: 20px;
+                color: darkslategray;
+                height: 30px;
+                left: 55px;
+            }
+
+            #p1-v2{
+                color: darkslategray;
+                letter-spacing: 3px;
+            }
+            #p2-v2{
+                color: darkslategray;
+                letter-spacing: 3px;
+            }
+            #p3-v2{
+                color: darkslategray;
+                letter-spacing: 3px;
+            }
+            #p4-v2{
+                color: darkslategray;
+                letter-spacing: 3px;
+            }
+            #p5-v2{
+                color: darkslategray;
+                letter-spacing: 3px;
+            }
+
+            #showOverlay{
+                display: block;
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                top: 30px;
+                left: 200px;
+            }
+
+            #x-img{
+                position: absolute;                
+                width: 42px;
+                height: 42px;
+                top: -127px;
+                left: 161px;
+                opacity: 5;
+                transition: opacity 0.8s;
+
+            }
+
+
+
+
+
+
+
+
+
+#naxis-bg-removed{
+    position: absolute;
+    margin-top: 435px;
+    height: 550px;
+    margin-left: 0;
+}
+
+#naxis-bg-removed2{
+    position: absolute;
+    top: 0px;
+    height: 550px;
+    left: 1040px;
+    margin-left: 0;
+}
+
+#naxis3{
+    position: absolute;
+    top: 90px;
+    height: 550px;
+    transform: scaleX(-1) rotate(180deg);
+    margin-left: 0;
+
+}
+
+#naxis4{
+    position: absolute;
+    top: 1620px;
+    height: 550px;
+    margin-left: 0;
+
+}
+
+#naxis5{
+    position: absolute;
+    top: 2170px;
+    height: 550px;
+    transform: scaleX(-1) rotate(180deg);
+    margin-left: 0;
+}
+
+#naxis6{
+    position: absolute;
+    top: 697px;
+    height: 550px;
+    transform: rotate(180deg);
+    right: 0px;
+    display: none;
+
+}
+
+#naxis7{
+    position: absolute;
+    top: 1190px;
+    height: 550px;
+    transform: scaleX(-1);
+    right: 0px;
+    display: none;
+
+}
+
+#naxis8{
+    position: absolute;
+    top: 1740px;
+    height: 550px;
+    transform: scaleX(-1);
+    transform: rotate(180deg);
+    right: 0px;
+    display: none;
+}
+
+#media1{
+    position: absolute;
+    height: 550px;
+    top: 1131px;
+    transform: rotateX(180deg);    
+    margin-left: -10px;
+    display: block;
+    margin-left: 0;
+}
+
+
+#media2{
+    position: absolute;
+    height: 550px;
+    top: 2683px;
+    margin-left: 0;
+    display: block;
+}
+
+#media3{
+    position: absolute;
+    height: 550px;
+    top: 3233px;
+    transform: rotateX(180deg);    
+    margin-left: 0px;
+    display: block;
+    margin-left: 0;
+    display: none;
+}
+
+#media4{
+    position: absolute;
+    height: 550px;
+    top: 3723px;
+    margin-left: 0;
+    display: none;
+}
+
+
+.scrolling-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 25%;
+    background-color: skyblue;
+    padding: 20px;
+    transition: transform 0.5s ease;
+    z-index: 999;
+
+}
+
+
+.scrolling-div.bottom {
+    top: auto;
+    bottom: 0;
+    transform: translateY(100%);
+}
+
+
+
+#teklif-etdiyimiz-xidmetler{
+    position: absolute;
+    width: 300px;
+    left: 10px;
+    top: 80px;
+    color: black;
+    font-weight: bold;
+
+    font-size: 28px;
+}
+
+#line{
+    position: absolute;
+    height: 8px;
+    width: 130px;
+    top: 190px;
+    left: 10px;
+}
+
+#teklif-etdiyimiz-xidmetler-alt{
+    position: absolute;
+    left: 10px;
+    top: 200px;
+    color: black;
+    font-size: 15px;
+}
+
+/*----------------------XİDMETLER-----------------------------*/
+.xidmet5{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 0px;
+    top: 333px;
+    background-color: rgba(0, 83, 171);
+    height: 255px;
+
+ 
+}
+
+#xidmet5-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#xidmet5-p{
+    color: white;
+    text-align: center;
+}
+
+#xidmet5-img{
+    position: relative;
+    left: 56px;
+    width: 110px;
+    height: 100px;
+}
+ 
+ /*---------------------------------------------------*/
+ .xidmet2{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 0px;
+    height: 270px;
+    top: 633px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet2-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#xidmet2-p{
+    color: white;
+    text-align: center;
+}
+
+#xidmet2-img{
+    position: relative;
+    left: 60px;
+    width: 110px;
+    height: 100px;
+}
+ 
+ /*---------------------------------------------------*/
+
+.xidmet6{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 0px;
+    top: 933px;
+    height: 260px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet6-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#xidmet6-p{
+    color: white;
+    text-align: center;
+}
+
+#xidmet6-img{
+    position: relative;
+    left: 45px;
+    width: 130px;
+    height: 100px;
+}
+ 
+ /*---------------------------------------------------*/
+.xidmet4{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 15px;
+    top: 1233px;
+    height: 240px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet4-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#xidmet4-p{
+    color: white;
+    text-align: center;
+}
+
+#xidmet4-img{
+    position: relative;
+    left: 50px;
+    width: 130px;
+    height: 100px;
+}
+ 
+ /*------------------------------------------------
+
+.xidmet3{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 33px;
+    top: 1533px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet3-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#xidmet3-p{
+    color: white;
+    text-align: center;
+}
+
+#xidmet3-img{
+    position: relative;
+    left: 25px;
+    width: 125px;
+    height: 100px;
+}
+ ---*/
+ /*---------------------------------------------------*/
+
+.xidmet1{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 0px;
+    height: 320px;
+    top: 1533px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet1-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#xidmet1-p{
+    color: white;
+    text-align: center;
+}
+
+#xidmet1-img{
+    position: relative;
+    left: 72px;
+    width: 105px;
+    height: 100px;
+}
+ 
+ /*---------------------------------------------------*/
+
+.xidmet7{
+    position: absolute;
+    border: 2px solid deepskyblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 7px;
+    top: 1913px;
+    height: 240px;
+    background-color: rgba(0, 83, 171);
+
+ 
+}
+
+#xidmet7-h{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#xidmet7-p{
+    color: white;
+    text-align: center;
+}
+
+#xidmet7-img{
+    position: relative;
+    margin-left: 60px;
+    width: 110px;
+    height: 100px;
+}
+ 
+
+
+ /*---------------------------------------------------*/
+
+
+.huquqlar {
+    display: none;
+    position: relative;
+    margin-left: 0px;
+    top: 3800px;
+    justify-content: space-between;
+    align-items: center;
+    border: 50px solid white;
+    box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.5); /* This creates a shadow on the top-middle side */
+    padding: 10px;
+    background-color: white;
+}
+
+.left-text {
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+    background-color: white;
+    font-weight: bold;
+}
+
+.right-text {
+    text-align: right;
+    font-size: 19px;
+    color: gray;
+    background-color: white;
+    font-weight: bold;
+}
+
+#meet2{
+    display: none;
+}
+
+#haqqimizda-ne-bilirsiniz{
+    position: absolute;
+    top: 2200px;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    left: 10px;
+}
+
+#line22{
+    position: absolute;
+    height: 8px;
+    width: 130px;
+    top: 2300px;
+    left: 10px;
+}
+
+
+/*
+.on-illik-tecrube{
+    position: absolute;
+    background-color: deepskyblue;
+    color: white;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    top: 2330px;
+    left: 180px;
+}
+*/
+#sirket-haqqinda{
+    position: absolute;
+    top: 2310px;
+    left: 10px;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#sirket-haqqinda-alt{
+    position: absolute;
+    top: 2360px;
+    left: 10px;
+    color: black;
+    font-size: 15px;
+    width: 600px;
+    display: none;
+}
+
+#sirket-haqqinda-alt2{
+    position: absolute;
+    top: 2360px;
+    left: 10px;
+    color: black;
+    font-size: 15px;
+    width: 600px;
+    display: block;
+
+}
+
+#yes{
+    position: absolute;
+    display: none;
+}
+
+#dostcasina-xidmet{
+    display: none;
+}
+
+#yes2{
+    display: none;
+}
+
+#innovativ-heller{
+    display: none;
+}
+
+
+#yes3{
+    display: none;
+}
+
+#yuksek-keyfiyyet{
+    display: none;
+}
+
+#yes4{
+    display: none;
+}
+
+#sertifikatli-meshullar{
+    display: none;
+}
+
+
+
+
+#yes11{
+    position: absolute;
+    top: 2940px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+#dostcasina-xidmet2{
+    position: absolute;
+    top: 2915px;
+    left: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+
+#yes22{
+    position: absolute;
+    top: 2993px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+#innovativ-heller2{
+    position: absolute;
+    top: 2970px;
+    left: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+#yes33{
+    position: absolute;
+    top: 3050px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+#yuksek-keyfiyyet2{
+    position: absolute;
+    top: 3040px;
+    left: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+#yes44{
+    position: absolute;
+    top: 3100px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+#sertifikatli-meshullar2{
+    position: absolute;
+    top: 3080px;
+    left: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+
+#logo{
+    position: absolute;
+    margin-left: 0px;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    display: none;
+}
+
+#logo55{
+    position: absolute;
+    margin-left: -40px;
+    width: 150px;
+    height: 150px;
+    margin-top: -45px;
+    display: block;
+}
+
+#logo55:hover{
+    cursor: pointer;
+}
+
+#ig{
+    position: absolute;
+    top: 35px;
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+#ig:hover{
+    cursor: pointer;
+}
+
+#fb{
+    position: absolute;
+   height: 42px;
+    display: none;
+    top: 40px;
+    margin-left: 150px;
+    width: 42px;
+} 
+
+#fb:hover{
+    cursor: pointer;
+}
+
+#loc-icon{
+    position: absolute;
+    top: 40px;
+    width: 44px;
+    height: 44px;
+    margin-left: 200px;
+    display: none;
+}
+
+
+#p1{
+    display: none;
+    width: 500px;
+    height: 500px;
+}
+
+#p2{
+    display: none;
+}
+
+#p3{
+    display: none;
+}
+
+#p4{
+    display: none;
+}
+
+#teklif{
+    position: absolute;
+    top: 35px;
+    left: 150px;
+    display: none;
+}
+
+#gorulenisler{
+}
+
+#language{
+    display: none;
+}
+
+#logo3-for-h1{
+    display: none;
+}
+
+
+
+#naxis-bg-removed2{
+    width: 1px;
+    height: 1px;
+}
+ 
+#treeline{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

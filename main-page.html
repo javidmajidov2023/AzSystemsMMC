@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Əsas səhifə | AzSystems MMC</title>
+    <link rel="stylesheet" href="main-page.css">
+</head>
+<body>
+
+
+<img id="naxis3" src="naxis-bg-removed.png">
+<img id="naxis4" src="naxis-bg-removed.png">
+<img id="naxis5" src="naxis-bg-removed.png">
+<img id="naxis6" src="naxis-bg-removed.png">
+<img id="naxis7" src="naxis-bg-removed.png">
+<img id="naxis8" src="naxis-bg-removed.png">
+
+<img id="media1" src="naxis-bg-removed.png">
+<img id="media2" src="naxis-bg-removed.png">
+<img id="media3" src="naxis-bg-removed.png">
+<img id="media4" src="naxis-bg-removed.png">
+
+    <div class="scrolling-div" id="scrollingDiv">
+
+
+      <a href="main-page.html"> <img id="logo" src="logo5.png"></a>
+      <a href="main-page.html"><img id="logo55" src="logo5.png"></a>
+
+      <a href="main-page.html"><button id="p1">Əsas səhifə</button></a>
+
+      <a href="haqqimizda.html"><button id="p2">Haqqımızda</button></a>
+
+      <a href="xidmetler.html"><button id="p3">Xidmətlər</button></a>
+
+      <a href="elaqe.html"><button id="p4">Əlaqə</button></a>
+
+      <a href="avadanliqlar.html"><p id="p5">Avadanlıqlar</p></a>
+
+
+      <a href="https://www.instagram.com/az_systems_mmc/" target="_blank"><img id="ig" src="ig2.png"></a>
+
+      <a href="https://m.facebook.com/profile.php?id=61552812114477&eav=AfadMGiN6N4CHJJuHiHm7FDrVWBrBOkowhobiCwYrrrNXmKGnTSSVd0qwInp_s8lr7Y&paipv=0" target="_blank"><img id="fb" src="fb1.png"></a>
+
+<select id="language" onchange="changeLanguage()">
+    <option value="" disabled selected>Dil</option>
+    <option value="main-page-en.html">EN</option>
+    <option value="main-page-ru.html">RU</option>
+    <option value="main-page.html">AZ</option>
+</select>
+
+<script>
+    function changeLanguage() {
+        var selectedLanguage = document.getElementById("language").value;
+
+        // Redirect to the corresponding HTML file based on the selected language
+        if (selectedLanguage) {
+            window.location.href = selectedLanguage;
+        }
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <button id="teklif">Təklif al</button>
+      <!--
+      <button id="gorulenisler">Görülən işlər</button>
+        -->
+<div class="open-close">
+    <div id="overlay">
+        <div id="content">
+            
+            <a href="main-page.html"><p id="p1-v2">Əsas səhifə</p></a>
+            <a href="haqqimizda.html"><p id="p2-v2">Haqqımızda</p></a>
+            <a href="avadanliqlar.html"><p id="p5-v2">Avadanlıqlar</p></a>
+            <a href="xidmetler.html"><p id="p3-v2">Xidmətlər</p></a>
+            <a href="elaqe.html"><p id="p4-v2">Əlaqə</p></a>
+            
+            <a href="#" id="closeOverlay"><img id="x-img" src="x-logo.png"></a>
+            <select name="select" id="language2" onchange="changeLanguageA()">
+                <option value="" disabled selected>Dil</option>
+                <option value="main-page-en.html">EN</option>
+                <option value="main-page-ru.html">RU</option>
+                <option value="main-page.html">AZ</option>
+            </select>
+
+<script>
+    function changeLanguageA() {
+        var selectedLanguage = document.getElementById("language2").value;
+
+        // Redirect to the corresponding HTML file based on the selected language
+        if (selectedLanguage) {
+            window.location.href = selectedLanguage;
+        }
+    }
+</script>
+
+
+
+
+
+        </div>
+    </div>
+    <img id="showOverlay" src="tree-line.png" alt="IMG" width="200" height="200">
+
+        
+    </div>
+</div>
+<script type="text/javascript">
+            document.getElementById("showOverlay").addEventListener("click", function() {
+            var overlay = document.getElementById("overlay");
+            var showOverlay = document.getElementById("showOverlay");
+
+            overlay.style.display = "block";
+            overlay.style.opacity = 0.5; // Beyazlık animasyonunu başlat
+            showOverlay.style.opacity = 0; // Resim kaybolur
+            setTimeout(function () {
+                overlay.style.opacity = 5; // Tamamen beyaz hale gelirken metinler ve X belirir
+            }, 10); // Beyazlık animasyon süresi
+        });
+
+        document.getElementById("closeOverlay").addEventListener("click", function(e) {
+            e.preventDefault();
+            var overlay = document.getElementById("overlay");
+            var showOverlay = document.getElementById("showOverlay");
+
+            overlay.style.opacity = 0; // Beyazlık kaybolur
+            showOverlay.style.opacity = 1; // Resim geri gelir
+            setTimeout(function () {
+                overlay.style.display = "none"; // Tamamen kaybolur
+            }, 500); // Beyazlık animasyon süresi
+        });
+</script>
+
+
+    <script src="main-page.js"></script>
+<!--
+<div class="image-container">
+        <div class="image-overlay"></div>
+        <img src="main-bg11.png" alt="image" class="image-with-overlay">
+</div>
+-->
+
+
+
+<!--
+<p id="h1" style="font-family: Arial, sans-serif;">AZsystems</p>
+-->
+
+<img id="logo3-for-h1" src="logo5.png">
+
+
+</div>
+
+<!--
+<div class="logos">
+    <img id="hp" src="hp.png">
+    <img id="excel" src="excel.png">
+    <img id="cisco" src="cisco.png">
+    <img id="hitachi" src="hitachi.png">
+    <img id="consquare" src="consquare.png">
+    <img id="sony" src="sony.png">
+    <img id="lg" src="lg.png">
+    <img id="musi" src="musi.png">
+</div>
+-->
+
+<img id="naxis-bg-removed" src="naxis-bg-removed.png">
+<img id="naxis-bg-removed2" src="naxis-bg-removed2.png">
+<!------------------------------------------------------------XİDMƏTLƏR--------------------------------------------------------------->
+<div class="xidmet5">
+
+  <img id="xidmet5-img" src="xidmet5.png">
+  <p id="xidmet5-h" style="font-family: Arial, sans-serif;">İT dəstək</p>
+  <p id="xidmet5-p" style="font-family: Arial, sans-serif;">AzSystems şirkəti bütün növ 
+  <br>
+  informasiya texnologiyalarının 
+  <br>
+  dəstəyini müştərilərinə təklif edir.
+  </p>
+
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------->
+<div class="xidmet2">
+
+  <img id="xidmet2-img" src="xidmet2.png">
+  <p id="xidmet2-h" style="font-family: Arial, sans-serif;">Sistem inteqrasiyası</p>
+  <p id="xidmet2-p" style="font-family: Arial, sans-serif;">AzSystems şirkəti dünyada inkişaf 
+  <br>
+  edən texnoloji proseslərinin
+  <br>
+  Azərbaycanda inteqrasiya edir.
+  </p>
+
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------->
+<div class="xidmet6">
+
+  <img id="xidmet6-img" src="xidmet6.png">
+  <p id="xidmet6-h" style="font-family: Arial, sans-serif;">Texniki servis</p>
+  <p id="xidmet6-p" style="font-family: Arial, sans-serif;">Müasir zamanda videomüşahidə 
+  <br>
+  sistemi istənilən biznes növünün  
+  <br>
+  tərkib hissəsinə çevrilmişdir.
+  </p>
+
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------->
+<div class="xidmet4">
+
+  <img id="xidmet4-img" src="xidmet4.png">
+  <p id="xidmet4-h" style="font-family: Arial, sans-serif;">Təhlükəsizlik sistemləri</p>
+  <p id="xidmet4-p" style="font-family: Arial, sans-serif;">Müasir zamanda videomüşahidə 
+  <br>
+  sistemi istənilən biznes növünün  
+  <br>
+  tərkib hissəsinə çevrilmişdir.
+  </p>
+
+</div>
+<!-------------------------------------------------------------------------------------------------------------------------
+<div class="xidmet3">
+
+  <img id="xidmet3-img" src="xidmet3.png">
+  <p id="xidmet3-h" style="font-family: Arial, sans-serif;">Biometrik həllər</p>
+  <p id="xidmet3-p" style="font-family: Arial, sans-serif;">AzSystems şirkəti 
+    <br>avtomatlaşdırılmış 
+  keçid 
+  <br>sistemlərinin geniş çeşidini 
+  <br>
+  təklif edir.
+  </p>
+
+</div>
+-->
+<!--------------------------------------------------------------------------------------------------------------------------->
+<div class="xidmet1">
+
+  <img id="xidmet1-img" src="xidmet1.png">
+  <p id="xidmet1-h" style="font-family: Arial, sans-serif;">Lokal və simsiz şəbəkənin 
+    <br>tətbiqi</p>
+  <p id="xidmet1-p" style="font-family: Arial, sans-serif;">Lokal kompüter şəbəkəsi 
+    <br>informasiyanın 
+  <br>
+  ötürülməsini, qorunmasını, emalını 
+  <br>
+  təmin edən avadanlıq və proqram
+  <br>
+  kompleksidir.
+
+  </p>
+
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------->
+<div class="xidmet7">
+
+  <img id="xidmet7-img" src="xidmet7.png">
+  <p id="xidmet7-h" style="font-family: Arial, sans-serif;">IP telefoniya</p>
+  <p id="xidmet7-p" style="font-family: Arial, sans-serif;"> 
+  <br>
+  IP telefoniya danışıq siqnallarının 
+  <br>
+  ötürülməsi üçün İnternetdən
+  <br>
+  istifadə edilən texnologiyadır.
+  </p>
+  
+
+</div>
+
+
+
+<p id="haqqimizda-ne-bilirsiniz" style="font-family: Arial, sans-serif;">
+Haqqımızda nə 
+<br>
+bilirsiniz?
+</p>
+
+<img id="line22" src="line.png">
+
+<img id="meet2" src="meet2.png">
+
+
+
+<p id="sirket-haqqinda" >Şirkət haqqında</p>
+
+<p id="sirket-haqqinda-alt">
+  “AzSystems” MMC şirkəti Azərbaycan Respublikasında fəaliyyət göstərir. Şirkətimizin əsas məqsədlərindən biri dünyada yüksək templərlə inkişaf edən informasiya texnologiyalarının və digər innovasiyaların Azərbaycan Respublikasına inteqrasiyası və onların eyni zamanda həyata keçirilməsidir.
+
+<br>
+<br>
+
+Şirkətin yeni olmasına baxmayaraq, o öz ətrafında müxtəlif sahələrdə çalışan yüksək hazırlıqlı professionalları cəmləşdirmişdir.
+
+<br>
+<br>
+
+Şirkətimiz mütamadi olaraq əməkdaşların professionallığın artırılması məqsədi ilə həm Azərbaycanda, həm də xaricdə keçirilən informasiya texnologiyalarının inkişafına dair kurslar, seminarlar və treyninqlərdən keçməsini təmin edir. Şirkətimiz artıq bir sıra dövlət əhəmiyyətli strukturlarda öz təcrübəsini və iş fəaliyyətini həyata keçirir. “Az Systems” şirkətinin fəaliyyət göstərdiyi bir sıra istiqamətlər mövcuddur:
+</p>
+
+<p id="sirket-haqqinda-alt2">
+  “AzSystems” MMC şirkəti Azərbaycan 
+  <br>Respublikasında fəaliyyət göstərir. 
+  <br>Şirkətimizin əsas məqsədlərindən biri 
+  <br>dünyada yüksək templərlə inkişaf 
+  <br>edən informasiya texnologiyalarının 
+  <br>və digər innovasiyaların Azərbaycan 
+  <br>Respublikasına inteqrasiyası və 
+  <br>onların eyni zamanda həyata 
+  <br>keçirilməsidir. 
+  <br>
+  <br>Şirkətin yeni olmasına baxmayaraq, 
+  <br>o öz  müxtəlif sahələrdə çalışan 
+  <br>yüksək hazırlıqlı professionalları 
+  <br>cəmləşdirmişdir.
+  <br>
+  <br>Şirkətimiz mütamadi olaraq 
+  <br>əməkdaşların professionallığın 
+  <br>artırılması məqsədi ilə həm 
+  <br>Azərbaycanda, həm də xaricdə 
+  <br>keçirilən informasiya texnologiyalarının 
+  <br>inkişafına dair kurslar, seminarlar və 
+  <br>treyninqlərdən keçməsini təmin edir. 
+  <br>Şirkətimiz artıq bir sıra dövlət 
+  <br>əhəmiyyətli strukturlarda öz 
+  <br>təcrübəsini və iş fəaliyyətini həyata 
+  <br>keçirir. “Az Systems” şirkətinin 
+  <br>fəaliyyət göstərdiyi bir sıra 
+  <br>istiqamətlər mövcuddur:
+</p>
+
+<img id="yes" src="yes.png">
+<img id="yes2" src="yes.png">
+<img id="yes3" src="yes.png">
+<img id="yes4" src="yes.png">
+
+<p id="dostcasina-xidmet">Dostcasına xidmət</p>
+<p id="innovativ-heller">İnnovativ həllər</p>
+<p id="yuksek-keyfiyyet">Yüksək keyfiyyət</p>
+<p id="sertifikatli-meshullar">Sertifikatlı məhsullar</p>
+
+<img id="yes11" src="yes.png">
+<img id="yes22" src="yes.png">
+<img id="yes33" src="yes.png">
+<img id="yes44" src="yes.png">
+
+<p id="dostcasina-xidmet2">Dostcasına xidmət</p>
+<p id="innovativ-heller2">İnnovativ həllər</p>
+<p id="yuksek-keyfiyyet2">Yüksək keyfiyyət</p>
+<p id="sertifikatli-meshullar2">Sertifikatlı məhsullar</p>
+<!--
+<div class="image-container2">
+        <div class="image-overlay2"></div>
+        <img src="bg-video-cover.png" alt="image2" class="image-with-overlay2">
+</div>
+
+
+
+<p id="onlar-bizi-secdi">Onlar bizi 
+<br>
+seçdi</p>
+
+<img id="line222" src="line.png">
+
+<div class="onlar-bizi-secdi">
+  <img id="vergiler-nazirliyi" src="vergiler-nazirliyi.png">
+  <img id="din" src="din.png">
+  <img id="access-bank" src="access-bank.png">
+  <img id="pasa-holding" src="pasa-holding.png">
+  <img id="azerisiq" src="azerisiq.png">
+  <img id="elbit-systems" src="elbit-systems.png">
+  <img id="akkord" src="akkord.png">
+  <p id="digerlerinede-bax">Digərlərinədə bax ></p>
+</div>
+-->
+    <div class="huquqlar">
+        <div class="left-text">
+            Müəllif hüquqları qorunur:
+        </div>
+        <div class="right-text">
+            ©2023
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+<!--
+<video id="video1" autoplay loop muted>
+    <source src="bg-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+-->
+
+
+
+
+<!--
+    <img id="resim" src="tree-line.png" alt="Resim" width="300" height="200">
+    <div class="button-container" id="dugme-container">
+
+      <a href="main-page.html"><button id="p1">Əsas səhifə</button></a>
+
+      <a href="haqqimizda.html"><button id="p2">Haqqımızda</button></a>
+
+      <a href="xidmetler.html"><button id="p3">Xidmətlər</button></a>
+
+      <a href="elaqe.html"><button id="p4">Əlaqə</button></a>
+    </div>
+
+    <script>
+        var buttonContainer = document.getElementById('dugme-container');
+
+        // Resme tıklandığında düğmeleri göster veya gizle
+        document.getElementById('resim').addEventListener('click', function() {
+            if (buttonContainer.style.display === 'none' || buttonContainer.style.display === '') {
+                buttonContainer.style.display = 'block';
+            } else {
+                buttonContainer.style.display = 'none';
+            }
+        });
+
+        // Düğmelere tıklama işlevleri eklemek için gerekli kodu ekleyebilirsiniz.
+        document.getElementById('dugme1').addEventListener('click', function() {
+            // Düğme 1 tıklanınca yapılacak işlemleri burada tanımlayabilirsiniz.
+        });
+
+        document.getElementById('dugme2').addEventListener('click', function() {
+            // Düğme 2 tıklanınca yapılacak işlemleri burada tanımlayabilirsiniz.
+        });
+
+        document.getElementById('dugme3').addEventListener('click', function() {
+            // Düğme 3 tıklanınca yapılacak işlemleri burada tanımlayabilirsiniz.
+        });
+
+        document.getElementById('dugme4').addEventListener('click', function() {
+            // Düğme 4 tıklanınca yapılacak işlemleri burada tanımlayabilirsiniz.
+        });
+    </script>
+
+-->
+
+<!-------------------------------------------BOTTOM DIV---------------------------------------------------------.-->
+
+
+<p id="teklif-etdiyimiz-xidmetler"  style="font-family: Arial, sans-serif;">Təklif etdiyimiz xidmətlər</p>
+
+<img id="line" src="line.png">
+
+<p id="teklif-etdiyimiz-xidmetler-alt" style="font-family: Arial, sans-serif;">
+
+AzSystems şirkəti ən son 
+<br>
+texnologiyalardan istifadə edərək 
+<br>
+biznesiniz üçün əlçatan 
+<br>
+həllər təklif edir.
+
+</p>
+
+
+
+
+    <script>
+        var buttonContainer = document.getElementById('p-container');
+
+        // Resme tıklandığında düğmeleri göster veya gizle
+        document.getElementById('tree-line').addEventListener('click', function() {
+            if (buttonContainer.style.display === 'none' || buttonContainer.style.display === '') {
+                buttonContainer.style.display = 'block';
+            } else {
+                buttonContainer.style.display = 'none';
+            }
+        });
+
+                // Düğmelere tıklama işlevleri eklemek için gerekli kodu ekleyebilirsiniz.
+        document.getElementById('P1').addEventListener('click', function() {
+            // Düğme 1 tıklanınca yapılacak işlemleri burada tanımlayabilirsiniz.
+        });
+
+        document.getElementById('P2').addEventListener('click', function() {
+            // Düğme 2 tıklanınca yapılacak işlemleri burada tanımlayabilirsiniz.
+        });
+
+        document.getElementById('P3').addEventListener('click', function() {
+            // Düğme 3 tıklanınca yapılacak işlemleri burada tanımlayabilirsiniz.
+        });
+
+        document.getElementById('P4').addEventListener('click', function() {
+            // Düğme 4 tıklanınca yapılacak işlemleri burada tanımlayabilirsiniz.
+        });
+    </script>
+
+</body>
+</html>
+
