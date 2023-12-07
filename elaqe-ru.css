@@ -232,7 +232,7 @@ body {
     margin-left: 1240px;
     top: 65px;
     background-color: lightblue;
-    width: 73px;
+    width: 70px;
     font-size: 20px;
 }
 
@@ -346,7 +346,7 @@ body {
 #faydali-xidmetler{
     position: absolute;
     top: 130px;
-    left: 370px;
+    left: 330px;
     font-size: 50px;
     font-weight: bolder;
     color: white;
@@ -356,7 +356,7 @@ body {
 #bizimle-elaqe{
     position: absolute;
     top: 220px;
-    left: 560px;
+    left: 520px;
     font-size: 20px;
     color: white;
     letter-spacing: 3px;
@@ -475,10 +475,9 @@ body {
 
 #bizi-izleyin{
     position: absolute;
-    left: 893px;
+    left: 827px;
     top: 470px;
     color: white;
-    text-align: center;
     letter-spacing: 2px;
     font-size: 13px;
 }
@@ -631,24 +630,24 @@ body {
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 40px;
-    top: 610px;
+    left: 90px;
+    top: 615px;
 }
 
 #instagram01-logo{
     position: absolute;
     width: 110px;
     height: 110px;
-    left: 90px;
-    top: 590px;
+    left: 140px;
+    top: 595px;
 }
 
 
 #bizi-izleyin{
     position: absolute;
     text-align: center;
-    left: 23px;
-    top: 670px;
+    left: 70px;
+    top: 690px;
     color: white;
     letter-spacing: 2px;
     font-size: 13px;
@@ -667,14 +666,14 @@ body {
             position: absolute;
             top: 0;
             left: 0;
-            width: 108%;
+            width: 350px;
             height: 100%;
             background-color: rgba(0, 0, 0, 0.7);
         }
         
 
         .image-with-overlay42 {
-            max-width: 108%;
+            width: 350px;
             height: auto;
             display: block;
         }
@@ -683,6 +682,7 @@ body {
     position: absolute;
     display: block;
     top: 750px;
+    left: 0px;
 }
 
 
@@ -710,7 +710,7 @@ body {
         
 
         .image-with-overlay32 {
-            max-width: 98%;
+            width: 350px;
             height: auto;
             display: block;
         }
@@ -720,7 +720,7 @@ body {
 #phone-logo{
     position: absolute;
     top: 440px;
-    left: 50px;
+    left: 100px;
     width: 130px;
     height: 130px;
 }
@@ -728,7 +728,7 @@ body {
 #number-txt{
     position: absolute;
     top: 540px;
-    left: 30px;
+    left: 80px;
     color: white;
     letter-spacing: 2px;
 }
@@ -741,7 +741,7 @@ body {
     left: 0px;
     background-color: white;
     padding-top: 100px;
-    width: 264px;
+    width: 350px;
     height: 165px;
     padding-top:80px ;
     text-align: center;
@@ -750,7 +750,7 @@ body {
 
 #mail-txt{
     position: absolute;
-    left: 25px;
+    left: 70px;
     top: 100px;
     color: #454545;
     letter-spacing: 2px;
@@ -759,7 +759,7 @@ body {
 #mail-img{
     position: absolute;
     top: 10px;
-    left: 40px;
+    left: 90px;
     width: 150px;
     height: 100px;
 }
@@ -776,8 +776,8 @@ body {
     display: block;
     position: absolute;
     font-size: 25px;
-    left: 0px;
-    top: 132px;
+    left: 20px;
+    top: 142px;
     letter-spacing: 3px;
     text-align: center;
     color: white;
@@ -792,8 +792,8 @@ body {
     font-size: 16px;
     letter-spacing: 2px;
     color: white;
-    top: 203px;
-    left: 45px;
+    top: 193px;
+    left: 81px;
 }
 
 
@@ -815,20 +815,41 @@ body {
             position: absolute;
             top: 0;
             left: 0;
-            width: 109%;
+            width: 350px;
             height: 100%;
             background-color: rgba(0, 0, 0, 0.4);
         }
         
 
         .image-with-overlay2 {
-            max-width: 109%;
+            max-width: 350px;
             height: auto;
             display: block;
         }
 
 #reception{
 }
+
+.scrolling-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 310px;
+    background-color: skyblue;
+    padding: 20px;
+    transition: transform 0.5s ease;
+    z-index: 999;
+
+}
+
+
+.scrolling-div.bottom {
+    top: auto;
+    bottom: 0;
+    transform: translateY(100%);
+}
+
 
 .open-close{
     display: block;
@@ -857,30 +878,41 @@ body {
 
             #language2{
                 position: absolute;
-                width: 70px;
+                width: 75px;
                 font-size: 20px;
                 color: darkslategray;
                 height: 30px;
-                left: 53px;
+                left: 104px;
             }
 
             #p1-v2{
+                position: relative;
+                top: 0px;
                 color: darkslategray;
                 letter-spacing: 3px;
+                left: 50px;
             }
             #p2-v2{
+                position: relative;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p3-v2{
+                position: relative;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p4-v2{
+                position: relative;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p5-v2{
+                position: relative;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
@@ -891,41 +923,19 @@ body {
                 width: 40px;
                 height: 40px;
                 top: 30px;
-                left: 200px;
+                left: 280px;
             }
 
             #x-img{
                 position: absolute;                
                 width: 42px;
                 height: 42px;
-                top: -127px;
-                left: 161px;
+                top: -128px;
+                left: 241px;
                 opacity: 5;
                 transition: opacity 0.8s;
 
             }
-
-
-
-.scrolling-div {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 50px;
-    width: 100%;
-    background-color: skyblue;
-    padding: 20px;
-    transition: transform 0.5s ease;
-    z-index: 999;
-
-}
-
-
-.scrolling-div.bottom {
-    top: auto;
-    bottom: 0;
-    transform: translateY(100%);
-}
 
 
 .huquqlar {

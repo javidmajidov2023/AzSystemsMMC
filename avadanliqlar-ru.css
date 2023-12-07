@@ -295,7 +295,7 @@ body {
     margin-left: 1240px;
     top: 65px;
     background-color: lightblue;
-    width: 70px;
+    width: 60px;
     font-size: 20px;
 }
 
@@ -346,7 +346,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 30px;
+    left: 40px;
 }
 
 #f1-img{
@@ -378,7 +378,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 35px;
+    left: 37px;
 }
 
 #f2-img{
@@ -410,7 +410,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 55px;
+    left: 37px;
 }
 
 #f3-img{
@@ -443,7 +443,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 230px;
-    left: 30px;
+    left: 6px;
 }
 
 #f4-img{
@@ -475,7 +475,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 15px;
+    left: 25px;
 }
 
 #f5-img{
@@ -573,7 +573,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 60px;
+    left: 40px;
 }
 
 #f8-img{
@@ -606,7 +606,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 60px;
+    left: 50px;
 }
 
 #f9-img{
@@ -709,7 +709,7 @@ body {
     font-size: 30px;
     text-align: center;
     top: 220px;
-    left: 70px;
+    left: 50px;
 }
 
 #f12-img{
@@ -742,7 +742,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 200px;
-    left: 28px;
+    left: 5px;
 }
 
 #f13-img{
@@ -774,7 +774,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 50px;
+    left: 38px;
 }
 
 #f14-img{
@@ -809,7 +809,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 0px;
+    left: 10px;
 }
 
 #f15-img{
@@ -845,7 +845,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 0px;
+    left: 10px;
 }
 
 #f16-img{
@@ -982,7 +982,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 50px;
+    left: 35px;
 }
 
 #f21-img{
@@ -1227,7 +1227,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 150px;
     background-color: white;
     width: 200px;
@@ -1239,7 +1239,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 30px;
+    left: 40px;
 }
 
 #f1-img{
@@ -1259,7 +1259,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 500px;
     background-color: white;
     width: 200px;
@@ -1271,7 +1271,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 30px;
+    left: 37px;
 }
 
 #f2-img{
@@ -1290,7 +1290,7 @@ body {
     border: 2px solid deepskyblue;
     border-radius: 5%;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 850px;
     background-color: white;
     width: 200px;
@@ -1302,7 +1302,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 51px;
+    left: 47px;
 }
 
 #f3-img{
@@ -1323,7 +1323,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 1200px;
     background-color: white;
     width: 200px;
@@ -1335,7 +1335,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 230px;
-    left: 26px;
+    left: 6px;
 }
 
 #f4-img{
@@ -1355,7 +1355,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 1550px;
     background-color: white;
     width: 200px;
@@ -1367,7 +1367,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 10px;
+    left: 25px;
 }
 
 #f5-img{
@@ -1387,7 +1387,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 1900px;
     background-color: white;
     width: 200px;
@@ -1423,7 +1423,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 2250px;
     background-color: white;
     width: 200px;
@@ -1455,7 +1455,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -110.5px;
+    left: -70.5px;
     top: 2600px;
     background-color: white;
     width: 200px;
@@ -1467,7 +1467,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 55px;
+    left: 40px;
 }
 
 #f8-img{
@@ -1488,7 +1488,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 2950px;
     background-color: white;
     width: 200px;
@@ -1500,7 +1500,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 61px;
+    left: 50px;
 }
 
 #f9-img{
@@ -1521,7 +1521,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 3300px;
     background-color: white;
     width: 200px;
@@ -1555,7 +1555,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 3650px;
     background-color: white;
     width: 200px;
@@ -1590,7 +1590,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 4000px;
     background-color: white;
     width: 200px;
@@ -1603,7 +1603,7 @@ body {
     font-size: 30px;
     text-align: center;
     top: 220px;
-    left: 70px;
+    left: 50px;
 }
 
 #f12-img{
@@ -1624,7 +1624,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 4350px;
     background-color: white;
     width: 200px;
@@ -1636,7 +1636,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 200px;
-    left: 25px;
+    left: 5px;
 }
 
 #f13-img{
@@ -1656,7 +1656,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 4700px;
     background-color: white;
     width: 200px;
@@ -1668,7 +1668,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 50px;
+    left: 38px;
 }
 
 #f14-img{
@@ -1690,7 +1690,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 5050px;
     background-color: white;
     width: 200px;
@@ -1726,7 +1726,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 5400px;
     background-color: white;
     width: 200px;
@@ -1739,7 +1739,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: -6px;
+    left: 10px;
 }
 
 #f16-img{
@@ -1760,7 +1760,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 5750px;
     background-color: white;
     width: 200px;
@@ -1794,7 +1794,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 6100px;
     background-color: white;
     width: 200px;
@@ -1828,7 +1828,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 6450px;
     background-color: white;
     width: 200px;
@@ -1863,7 +1863,7 @@ body {
     border-radius: 5%;
     position: absolute;
     padding: 20px;
-    left: -109.5px;
+    left: -69.5px;
     top: 6800px;
     background-color: white;
     width: 200px;
@@ -1876,7 +1876,7 @@ body {
     color: #0053AB;
     font-size: 30px;
     top: 220px;
-    left: 45px;
+    left: 35px;
 }
 
 #f21-img{
@@ -1973,30 +1973,41 @@ body {
 
             #language2{
                 position: absolute;
-                width: 70px;
+                width: 75px;
                 font-size: 20px;
                 color: darkslategray;
                 height: 30px;
-                left: 55px;
+                left: 105px;
             }
 
             #p1-v2{
+                position: relative;
+                top: 0px;
                 color: darkslategray;
                 letter-spacing: 3px;
+                left: 50px;
             }
             #p2-v2{
+                position: relative;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p3-v2{
+                position: relative;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p4-v2{
+                position: relative;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
             #p5-v2{
+                position: relative;
+                left: 50px;
                 color: darkslategray;
                 letter-spacing: 3px;
             }
@@ -2007,15 +2018,15 @@ body {
                 width: 40px;
                 height: 40px;
                 top: 30px;
-                left: 200px;
+                left: 280px;
             }
 
             #x-img{
                 position: absolute;                
                 width: 42px;
                 height: 42px;
-                top: -127px;
-                left: 160px;
+                top: -128px;
+                left: 211px;
                 opacity: 5;
                 transition: opacity 0.8s;
 
